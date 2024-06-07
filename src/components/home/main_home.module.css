@@ -1,0 +1,31 @@
+main{
+    padding-top: 10px;
+}
+.video{
+    align-content: center;
+    display: flex;
+    width: 100%;
+    aspect-ratio: 17/8;
+    margin-bottom:25px ;
+    iframe
+    {
+        width: calc(100% - 20px);
+        height: 100%;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0 4px 16px 2px black;
+    }
+}
+.slider_container{
+    padding: 0 50px;
+}
+.slide{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow: auto;
+}
+.btn{
+   background-color: white;
+}

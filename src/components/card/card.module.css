@@ -1,0 +1,95 @@
+*{
+    color: var(--text);
+}
+.card{
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+    background-color: rgba(255, 255, 255, 0.074);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5px;
+    .img{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        height: 200px;
+        background-color: white;
+        box-shadow: var(--shadow) 0 0 5px 1px;
+        img{
+            object-fit: contain;
+            max-width: 90%;
+            max-height: 90%;
+        }
+    }
+    .product_title{
+        font-size: 28px;
+        text-align: left;
+        margin: 5px 20px;
+        text-shadow: var(--accent) 0 0 4px;
+    }
+    .product_desc{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+        margin: 0;
+        font-size: 22px;
+    }
+    .btn{
+        background-color: var(--accent);
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        display: flex;
+        padding: 5px 15px;
+        align-self: center;
+        margin: auto 0 5px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 20px;
+        width: fit-content;
+        box-shadow: var(--shadow) 0 0 6px;
+        color: ghostwhite;
+        transition: all 0.15s ease;
+    }
+    .btn:hover {
+        box-shadow: var(--accent) 0 0 16px;
+        transform: scale(105%);
+        cursor: pointer;
+    }
+    .btn:active {
+        box-shadow: var(--shadow) 0 0 7px;
+        transform: scale(95%);
+    }
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: var(--accent) 0 1px 8px;
+}
+@media (max-width: 805px) {
+    .card {
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 320px;
+        max-height: 320px;
+        .img{
+            height: 120px;
+        }
+        .product_title{
+            font-size: 22px;
+        }
+        .product_desc{
+            -webkit-line-clamp: 4;
+            font-size: 20px;
+        }
+    }
+}

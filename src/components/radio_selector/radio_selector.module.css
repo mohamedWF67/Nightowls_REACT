@@ -1,0 +1,31 @@
+.catradiogroup{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    input{
+        display: none;
+    }
+    label{
+        color: var(--text);
+        margin: 10px;
+        border: 2px solid var(--border);
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        border-radius: 20px;
+        justify-content: space-between;
+    }
+}
+.catradiogroup label:hover{
+    border: 2px solid rgba(95, 82, 211, 0.50);
+    transform: scale(1.15);
+}
+.catradiogroup label:active{
+    border: 2px solid rgba(95, 82, 211, 0.50);
+    transform: scale(0.95);
+}
+.catradiogroup input:checked + label{
+    border: 2px solid rgba(95, 82, 211, 1);
+}

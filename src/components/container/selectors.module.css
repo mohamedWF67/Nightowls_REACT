@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 60vh;
+}
+em{
+    text-shadow: 2px 2px  8px var(--accent);
+}
+select{
+    height: 35px;
+    border-radius: 20px;
+    outline: 0;
+    border: 2px solid rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+    background-color: rgba(255, 255, 255, 0.074);
+    color: var(--text);
+    padding: 0 10px;
+}
+select:hover{
+    border: 2px solid var(--accent);
+}
+.table{
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+    background-color: rgba(255, 255, 255, 0.074);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.074);
+    overflow: hidden;
+}
+table,th,td{
+    color: var(--text);
+    border-radius:20px;
+    border: 2px solid var(--table);
+    border-collapse: collapse;
+    padding: 8px;
+    caption{
+        color: var(--text);
+        padding: inherit;
+    }
+}
+option{
+    background: var(--background);
+}
