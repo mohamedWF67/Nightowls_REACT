@@ -1,16 +1,6 @@
 import Card from "../card/card.jsx";
-import Product_tag from "../product_tag/product_tag.jsx";
 
 function Collecdata() {
-
-    const divStyle = {
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        gap: "15px",
-        justifyContent: "center",
-        padding: "25px"
-    };
 
     const collecdata = [
         {
@@ -59,12 +49,9 @@ function Collecdata() {
     ]
 
     return (<>
-            <Product_tag title={"Collections"}/>
-            <div style={divStyle}>
             {collecdata.map((lm,index) => (
                 <Card key={index} desc={lm.name} title={lm.brand} img={lm.img} price={lm.price}/>
             ))}
-            </div>
         </>
     );
 

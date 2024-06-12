@@ -1,0 +1,86 @@
+.centerme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    *{box-sizing: border-box}
+}
+.contactus_container{
+    margin: 20px 0 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+    background-color: rgba(255, 255, 255, 0.074);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.074);
+    padding: 20px;
+    width: 500px;
+    form{
+        display: flex;
+        flex-direction: column;
+        .contactus_header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            h1{margin: 0;}
+            .submit_button{
+                border: 2px solid var(--border);
+                border-radius: 20px;
+                font-size: 18px;
+                height: 40px;
+                width: 100px;
+            }
+            button:hover{
+                background-color: var(--accent);
+                box-shadow: white 0 0 8px;
+            }
+            button:focus {box-shadow: white 0 0 4px;}
+        }
+        .contactus_inputarea{
+            margin: 20px 0 0;
+        }
+        .inputbox{
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            input{
+                margin:0 0 10px;
+                height: 40px;
+                background: transparent;
+                outline: none;
+                border: 2px solid var(--border);
+                border-radius: 20px;
+                font-size: 16px;
+                color: white;
+                padding: 0 20px;
+            }
+            input:hover{
+                border: 2px solid rgba(95, 82, 211, 0.50);
+            }
+            input:focus{
+                border: 2px solid rgba(95, 82, 211, 1);
+            }
+
+        }
+        .contactus_feedback{
+            margin-top: 10px;
+            textarea{
+                padding: 20px;
+                background: none;
+                border-radius: 20px;
+                outline: 0;
+                border: 2px solid var(--border);
+                height: 350px;
+                resize: none;
+            }
+            textarea:hover{
+                border: 2px solid rgba(95, 82, 211, 0.50);
+            }
+            textarea:focus{
+                border: 2px solid rgba(95, 82, 211, 1);
+            }
+        }
+
+    }
+}
+@media (max-width:520px){
+    .contactus_container{width: calc(100vw - 15px);}
+}

@@ -25,12 +25,10 @@ function Darkmode() {
         (e.target.checked ? setDarkMode():setLightMode());
     }
     return (
-            <li>
                 <a>
                 <input className={styles.checkbox} type="checkbox" id={"darkmode"} name="darkmode" defaultChecked={selectedTheme === "dark"} onChange={toggleDarkMode}/>
                 <label htmlFor="darkmode"><img  src={darkmode} alt="darkmode"/></label>
                 </a>
-            </li>
     );
 }
 

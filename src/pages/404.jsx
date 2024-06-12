@@ -1,18 +1,12 @@
+import purplecentered from "../modifers/purplecentered.jsx";
 
 function E404() {
-
-    const style = {
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '95vh',
-        fontSize: '1.75rem',
-    }
-
+    document.title = "Page Not Found";
+    purplecentered();
     return (
-        <div style={style}>
+        <>
             <h1>Page Not Found</h1>
-        </div>
+        </>
     );
 
 }

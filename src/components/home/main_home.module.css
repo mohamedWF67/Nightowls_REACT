@@ -20,11 +20,14 @@ main{
     padding: 0 50px;
 }
 .slide{
-    padding: 25px;
+    padding: 25px 0;
     display: flex;
     flex-direction: row;
     gap: 15px;
     overflow: auto;
+}
+.slide::-webkit-scrollbar{
+    display: none;
 }
 .btn{
    background-color: white;

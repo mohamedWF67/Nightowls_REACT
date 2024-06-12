@@ -1,26 +1,14 @@
 import Header from "../components/Header/header.jsx";
 import Footer from "../components/footer/Footer.jsx";
-import Product_tag from "../components/product_tag/product_tag.jsx";
 import Prebuiltdata from "../components/data/prebuiltdata.jsx";
+import Prodcontainer from "../components/container/product_container.jsx";
 
 function Prebuilt() {
-    const divStyle = {
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        gap: "15px",
-        justifyContent: "center",
-        padding: "25px"
-    };
+    document.title = "Pre Built PCs";
     return (
         <>
             <Header/>
-            <main>
-                <Product_tag title={"Pre Built PCs"}/>
-                <div style={divStyle}>
-                    <Prebuiltdata/>
-                </div>
-            </main>
+            <Prodcontainer title={"Pre Built PCs"} data={<Prebuiltdata/>}/>
             <Footer/>
         </>
     );

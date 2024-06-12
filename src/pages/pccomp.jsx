@@ -2,27 +2,25 @@ import Header from "../components/Header/header.jsx";
 import Footer from "../components/footer/Footer.jsx";
 import {useState} from "react";
 import RadioSelector from "../components/radio_selector/radio_selector.jsx";
-import Pccompdata from "../components/data/pccompdata.jsx";
 import styles from "../components/radio_selector/radio_selector.module.css";
+import Prodcontainer from "../components/container/product_container.jsx";
+import Pccompdata from "../components/data/pccompdata.jsx";
 
 function Pccomp() {
-
-    const [category, setCategory] = useState("CPU");
+    const categories = [
+        "CPU","Motherboard","GPU","RAM","Storage","Case","PSU"
+    ]
+    const [category, setCategory] = useState(categories.at(0));
+    document.title = category;
     return (
             <>
                 <Header/>
-                <main>
-                    <div className={styles.catradiogroup}>
-                        <RadioSelector id={1} value={"CPU"} name={"category"} checked={category === "CPU"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={2} value={"Motherboard"} name={"category"} checked={category === "Motherboard"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={3} value={"GPU"} name={"category"} checked={category === "GPU"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={4} value={"RAM"} name={"category"} checked={category === "RAM"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={5} value={"Storage"} name={"category"} checked={category === "Storage"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={6} value={"Case"} name={"category"} checked={category === "Case"} onchange={e => setCategory(e.target.value)}/>
-                        <RadioSelector id={7} value={"PSU"} name={"category"} checked={category === "PSU"} onchange={e => setCategory(e.target.value)}/>
-                    </div>
-                    <Pccompdata category={category}/>
-                </main>
+                <div className={styles.catradiogroup}>
+                    {categories.map((data, index) => (
+                        <RadioSelector id={index} key={index} value={data} name={"category"} checked={category === data} onchange={e => setCategory(e.target.value)}/>
+                    ))}
+                </div>
+                <Prodcontainer title={category} data={<Pccompdata category={category}/>}/>
                 <Footer/>
             </>
     );

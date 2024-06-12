@@ -1,6 +1,5 @@
 import Card from "../card/card.jsx";
 import PropTypes from "prop-types";
-import Prodcontainer from "../container/container.jsx";
 
 function datafn(x){
     const Desk = [
@@ -131,9 +130,9 @@ function datafn(x){
 
 function Setupdata(props) {
     return (<>
-            <Prodcontainer title={props.category} data={datafn(props.category).map((lm,index) => (
+            {datafn(props.category).map((lm,index) => (
                 <Card key={index} desc={lm.name} title={lm.brand} img={lm.img} price={lm.price}/>
-            ))}/>
+            ))}
         </>
     );
 

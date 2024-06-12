@@ -1,0 +1,82 @@
+.aboutuscontainer{
+    padding: 10px 0 0;
+    *{box-sizing: border-box}
+    h1{text-align: center; font-size: 60px;margin: 10px 0}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .aboutus_b{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+        gap: 30px;
+    }
+    .aboutus_big{
+        box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+        background-color: rgba(255, 255, 255, 0.074);
+        width: 98%;
+        border-radius: 20px;
+        h1{text-align: center;}
+        p{font-size: 45px;font-weight: normal}
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .aboutus_b1{
+        box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+        background-color: rgba(255, 255, 255, 0.074);
+        width: 48%;
+        border-radius: 20px;
+        h1{text-align: left;}
+        p{font-size: 45px;font-weight: normal}
+        padding: 20px;
+        height: auto;
+    }
+    .aboutus_b2{
+        box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+        background-color: rgba(255, 255, 255, 0.074);
+        width: 48%;
+        border-radius: 20px;
+        h1{text-align: left;}
+        p{font-size: 45px;font-weight: normal}
+        padding: 20px;
+    }
+    .aboutus_b1:hover{
+        transform: scale(1.01);
+        box-shadow: var(--accent) 0 1px 8px;
+    }
+    .aboutus_b2:hover{
+        transform: scale(1.01);
+        box-shadow: var(--accent) 0 1px 8px;
+    }
+    .aboutus_big:hover{
+        transform: scale(1.01);
+        box-shadow: var(--accent) 0 1px 8px;
+    }
+}
+@media (max-width: 1126px){
+    .aboutuscontainer{
+        .aboutus_b1{
+            width: 95%;
+            margin-left: auto;
+        }
+        .aboutus_b2{
+            width: 95%;
+            margin-right: auto;
+        }
+    }
+}
+@media (max-width: 805px) {
+    .aboutuscontainer{
+        h1{font-size: 40px}
+    }
+    .aboutuscontainer .aboutus_b{
+        h1{font-size: 40px};
+        p{font-size: 25px};
+    }
+    .aboutuscontainer .aboutus_big {
+        h1 {font-size: 40px};
+        p {font-size: 25px};
+    }
+}

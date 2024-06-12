@@ -4,9 +4,7 @@ import Reqtable from "../req_table.jsx";
 
 function Selecttable(props) {
     var data = props.option;
-
     var tb = props.tbs;
-
     return (
         <main className={styles.main}>
             <h1><em>{props.heading}</em></h1>
@@ -19,21 +17,9 @@ function Selecttable(props) {
                 </select>
             </form>
             <h3><em>Games Guider</em> provides you with specifications for the game you select.</h3>
-            {(() => {
-                if (props.selvalue === "Valorant") {
-                    return (
-                        <Reqtable title={props.selvalue} data={tb} no={0}/>
-                    )
-                } else if (props.selvalue === "Fortnite") {
-                    return (
-                        <Reqtable title={props.selvalue} data={tb} no={1}/>
-                    )
-                } else if (props.selvalue === "Overwatch") {
-                    return (
-                        <Reqtable title={props.selvalue} data={tb} no={2}/>
-                    )
-                }
-            })()}
+            {props.selvalue === "Valorant" && <Reqtable title={props.selvalue} data={tb} no={0}/>}
+            {props.selvalue === "Fortnite" && <Reqtable title={props.selvalue} data={tb} no={1}/>}
+            {props.selvalue === "Overwatch" && <Reqtable title={props.selvalue} data={tb} no={2}/>}
         </main>
     );
 

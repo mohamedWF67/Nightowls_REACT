@@ -1,26 +1,15 @@
 import Header from "../components/Header/header.jsx";
 import Footer from "../components/footer/Footer.jsx";
-import Product_tag from "../components/product_tag/product_tag.jsx";
-import Consoledata from "../components/data/consolesdata.jsx";
+import Prodcontainer from "../components/container/product_container.jsx";
+import Consolesdata from "../components/data/consolesdata.jsx";
 
 function Consoles() {
-    const divStyle = {
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "wrap",
-        gap: "10px",
-        justifyContent: "center",
-        padding: "25px"
-    };
+
+    document.title = "Consoles";
     return (
         <>
             <Header/>
-            <main>
-                <Product_tag title={"Consoles"}/>
-                <div style={divStyle}>
-                    <Consoledata/>
-                </div>
-            </main>
+            <Prodcontainer title={"Consoles"} data={<Consolesdata/>}/>
             <Footer/>
         </>
     );

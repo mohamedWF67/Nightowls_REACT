@@ -29,3 +29,23 @@
 .catradiogroup input:checked + label{
     border: 2px solid rgba(95, 82, 211, 1);
 }
+.getintoinspire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .getintoinspire_btn{
+        border: 2px solid var(--border);
+        border-radius: 20px;
+        font-size: 18px;
+        height: 30px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .getintoinspire_btn:hover{
+        cursor: pointer;
+        transform: scale(1.15);
+        box-shadow: white 0 0 8px;
+    }
+}

@@ -37,6 +37,9 @@ footer{
             filter: opacity(75%);
             margin: 0;
         }
+        a:hover{
+            text-decoration: underline;
+        }
     }
     .socials{
         ul{
@@ -53,6 +56,15 @@ footer{
         }
         li:hover{
             transform: scale(1.15);
+        }
+        .social_icon_facebook:hover{
+            background: royalblue;
+        }
+        .social_icon_instagram:hover{
+            background: #a034f8;
+        }
+        .social_icon_youtube:hover{
+            background: #e12727;
         }
     }
 }

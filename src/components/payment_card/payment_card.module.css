@@ -1,0 +1,110 @@
+.payment_card {
+    .payment_card_container{
+        *{font-weight: 500;}
+        color: var(--text);
+        box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+        background-color: rgba(255, 255, 255, 0.074);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, 0.074);
+        width: 350px;
+        height: 220px;
+        h3{
+            font-weight: normal;
+            text-align: left;
+            margin: 20px;
+        }
+        .credit_nu{
+            margin: 10px 0;
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-evenly;
+            input{font-size: 20px;padding: 0 20px}
+            input:focus{
+                border: 2px solid rgba(255, 255, 255, 0.75);
+            }
+        }
+        input{
+            border: 2px solid rgba(255, 255, 255, 0.25);
+            color: white;
+            padding: 0;
+            background: none;
+            outline: none;
+            border-radius: 20px;
+            height: 30px;
+            text-align: center;
+        }
+        input::placeholder{color: rgba(255, 255, 255, 0.25) }
+        .credit_rest{
+            width: calc(100% - 40px);
+            height: 40px;
+            margin: 10px 20px;
+            input{
+                float: right;
+                margin: 0 5px;
+                border-radius: 0;
+                border: none;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+            }
+            input:focus{
+                border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+            }
+        }
+        .nameholder{
+            input{float: left};
+            width: calc(100% - 40px);
+            margin: 10px 20px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            input{
+                min-width: 100px;
+                padding: 0 10px;
+                text-align: left;
+                border-radius: 0;
+                border: none;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+            }
+            i{
+                font-size: 50px;
+                margin-left: auto;
+            }
+            input:focus{
+                border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+            }
+        }
+    }
+    .proceed_card{
+        margin: 10px;
+        align-items: center;
+        .proceed_card_btn{
+            font-family: "Barlow Condensed", sans-serif;
+            font-weight: 500;
+            color: rgba(255,255,255,0.90);
+            font-size: 20px;
+            text-align: left;
+            padding: 0 15px;
+            border: 2px solid rgba(255,255,255,0.25);
+            background-color: rgba(132, 0, 255, 0.25);
+            backdrop-filter: blur(10px);
+            box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+            width: 340px;
+            height: 35px;
+            border-radius: 20px;
+            p{
+                color: rgba(255,255,255,0.90);
+                float: right;
+                margin: 0;
+                display: inline-block;
+            }
+        }
+        button:hover{
+            transform: scale(1.15);
+        }
+        button:active{
+            transform: scale(0.95);
+        }
+    }
+
+}

@@ -11,7 +11,7 @@ function Reqtable(props) {
             <table>
                 <caption>{props.title}</caption>
                 <tr>
-                    <th>Specifications</th>
+                    <th>Specs</th>
                     <th>Minimum</th>
                     <th>Recommended</th>
                     <th>High-End</th>
@@ -20,33 +20,9 @@ function Reqtable(props) {
                     <>
                         <tr>
                             <td key={index}>{lm.spec}</td>
-                            {(() => {
-                                if (lm.min !== undefined ) {
-                                    return (
-                                        <td key={index}>{lm.min}</td>
-                                    )
-                                }else{
-                                    return (null)
-                                }
-                            })()}
-                            {(() => {
-                                if (lm.rec !== undefined ) {
-                                    return (
-                                        <td key={index}>{lm.rec}</td>
-                                    )
-                                }else{
-                                    return (null)
-                                }
-                            })()}
-                            {(() => {
-                                if (lm.max !== undefined ) {
-                                    return (
-                                        <td key={index}>{lm.max}</td>
-                                    )
-                                }else{
-                                    return (null)
-                                }
-                            })()}
+                            {lm.min && <td key={index}>{lm.min}</td>}
+                            {lm.rec && <td key={index}>{lm.rec}</td>}
+                            {lm.max && <td key={index}>{lm.max}</td>}
                         </tr>
                     </>
                 ))}

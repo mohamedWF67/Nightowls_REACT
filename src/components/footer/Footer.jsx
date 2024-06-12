@@ -10,9 +10,9 @@ function Footer() {
                 <div className={styles.content}>
                     <h2>Accessories</h2>
                     <ul>
-                        <li>Gaming</li>
-                        <li>Setup</li>
-                        <li>Collections</li>
+                        <li><a href={"gaming"}>Gaming</a></li>
+                        <li><a href={"setup"}>Setup</a></li>
+                        <li><a href={"collections"}>Collections</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
@@ -27,22 +27,22 @@ function Footer() {
                 <div className={styles.content}>
                     <h2>Games guider</h2>
                     <ul>
-                        <li>Requirements</li>
-                        <li>Hardware enhancements</li>
+                        <li><a href={"Requirements"}>Requirements</a></li>
+                        <li><a href={"Hardware"}>Hardware enhancements</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Cart</h2>
                     <ul>
-                        <li>View cart</li>
-                        <li>Checkout</li>
+                        <li><a href={"cart"}>View cart</a></li>
+                        <li><a href={"checkout"}>Checkout</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Account</h2>
                     <ul>
-                        <li>Login</li>
-                        <li>Sign-up</li>
+                        <li><a href={"login"}>Login</a></li>
+                        <li><a href={"registration"}>Sign-up</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
@@ -61,15 +61,15 @@ function Footer() {
                 </div>
                 <div className={styles.socials}>
                     <ul>
-                        <li className="social_icon facebook"><a
+                        <li className={styles.social_icon_facebook}><a
                             href="https://www.facebook.com/thebritishuniversityegypt">
                             <box-icon type='logo' name='facebook' color='white' size='25px'></box-icon>
                         </a></li>
-                        <li className="social_icon instagram"><a
+                        <li className={styles.social_icon_instagram}><a
                             href="https://www.instagram.com/thebritishuniversityinegypt/">
                             <box-icon name='instagram' type='logo' color='white' size='25px'></box-icon>
                         </a></li>
-                        <li className="social_icon youtube"><a
+                        <li className={styles.social_icon_youtube}><a
                             href="https://www.youtube.com/@thebritishuniversityinegyp985">
                             <box-icon name='youtube' type='logo' color='white' size='25px'></box-icon>
                         </a></li>

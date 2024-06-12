@@ -1,0 +1,35 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    *{margin: 0;
+    font-size: 26px;}
+    .accordion_header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        i{
+            font-size: 35px;
+        }
+    }
+    .accordion_content{
+        display: flex;
+        flex-direction: column;
+        a{
+            margin: 5px 0;
+        }
+    }
+    a:hover{
+        text-shadow: 2px 2px 4px var(--glow);
+    }
+}
+.accordion:hover{
+    border-radius: 10px;
+    p{
+        text-shadow: 2px 2px 4px var(--glow);
+    }
+}
+.accordion_header:hover{
+    cursor: pointer;
+}

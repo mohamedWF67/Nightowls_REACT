@@ -1,6 +1,5 @@
 import Card from "../card/card.jsx";
 import PropTypes from "prop-types";
-import Prodcontainer from "../container/container.jsx";
 
 function datafn(x){
     const cpu = [
@@ -275,6 +274,58 @@ function datafn(x){
             price:"4400"
         },
     ]
+    const laptopram = [
+        {
+            brand:"CORSAIR",
+            name:"VENGEANCE Performance 16GB (1PK 16GB) 3200MHz DDR4",
+            img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519625_sd.jpg;maxHeight=640;maxWidth=550",
+            price:"1675"
+        },
+        {
+            brand:"CORSAIR",
+            name:"Vengeance Series 32GB (2x16GB) 2666MHz DDR4 C18 SODIMM ",
+            img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6395/6395110_sd.jpg;maxHeight=640;maxWidth=550",
+            price:"3446"
+        },
+        {
+            brand:"CORSAIR",
+            name:"Vengeance 16GB (1PK 16GB) 4800MHz DDR5 C40 SODIMM",
+            img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6516/6516932_sd.jpg;maxHeight=640;maxWidth=550",
+            price:"3000"
+        },
+        {
+            brand:"CORSAIR",
+            name:"VENGEANCE 32GB (1PK 32GB) 4800MHz DDR5 C40 SODIMM",
+            img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519626_sd.jpg;maxHeight=640;maxWidth=550",
+            price:"4163"
+        },
+    ]
+    const laptopssd = [
+        {
+            brand:"SABRENT",
+            name:"Rocket 2230 NVMe 4.0 1TB High Performance PCIe 4.0 M.2 2230 SSD [SB-2130-1TB]",
+            img:"https://m.media-amazon.com/images/I/71BVLQNOlmL._AC_SL1500_.jpg",
+            price:"5000"
+        },
+        {
+            brand:"Seagate",
+            name:"FireCuda 520N SSD 2TB SSD - M.2 2230-S2, PCIe Gen4 ×4 NVMe 1.4, speeds up to 5000MB/s, Compatible with Steam Deck, Microsoft® Surface, Laptop, with Rescue Services (ZP2048GV3A002)",
+            img:"https://m.media-amazon.com/images/I/61NUQVKoNUL._AC_SL1050_.jpg",
+            price:"9000"
+        },
+        {
+            brand:"KIOXIA",
+            name:"SSD 512GB M.2 2230 30mm NVMe PCIe 4.0 Gen 4 x 4 BG5 (OEM)",
+            img:"https://m.media-amazon.com/images/I/81nC5v90i-L._AC_SL1500_.jpg",
+            price:"2000"
+        },
+        {
+            brand:"WD",
+            name:"BLACK 1TB SN770M M.2 2230 NVMe SSD for Handheld Gaming Devices, Speeds up to 5,150MB/s, TLC 3D NAND, Great for Steam Deck and Microsoft Surface - WDBDNH0010BBK-WRSN",
+            img:"https://m.media-amazon.com/images/I/61R8776bKlL._AC_SL1500_.jpg",
+            price:"5000"
+        },
+    ]
     //x.sort((a, b) => a.price - b.price);
     switch (x){
         case "CPU":
@@ -291,14 +342,16 @@ function datafn(x){
             return(Case);
         case "PSU":
             return(psu);
+        case "laptopram":
+            return(laptopram);
+        case "laptopssd":
+            return(laptopssd);
     }
 }
 
 function Pccompdata(props) {
     return (<>
-            <Prodcontainer title={props.category} data={datafn(props.category).map((lm,index) => (
-                <Card key={index} desc={lm.name} title={lm.brand} img={lm.img} price={lm.price}/>
-            ))}/>
+        {datafn(props.category).map((lm,index) => (<Card key={index} desc={lm.name} title={lm.brand} img={lm.img} price={lm.price}/>))}
         </>
     );
 

@@ -5,6 +5,8 @@ import Selecttable from "../components/container/selecttable.jsx";
 
 function Requirements() {
 
+    document.title = "Requirements";
+
     const options = [{value:"Valorant"},{value:"Fortnite"},{value:"Overwatch"}]
 
     const tables = [[

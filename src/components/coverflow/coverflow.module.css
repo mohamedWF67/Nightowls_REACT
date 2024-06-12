@@ -1,8 +1,40 @@
-.swiper {
-    width: calc(100% - 40px);
-    max-height: 100%;
+.coverflow{
+    max-height: 50vh;
     display: flex;
+    flex-direction: row;
+    overflow: auto;
+    .coverflow_img{
+        position: relative;
+        display: flex;
+        margin: 0 20px;
+        height: 45vh;
+        width: fit-content;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+        img{
+            aspect-ratio: auto;
+            height: 100%;
+            border-radius: 20px;
+        }
+    }
+}
+.coverflow_nav{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    button{
+        border: 2px solid var(--border);
+        border-radius: 20px;
+        font-size: 18px;
+        height: 35px;
+        width: 100px;
+        margin: 0 10px;
+    }
+    button:hover{
+        background-color: var(--accent);
+        box-shadow: white 0 0 8px;
+    }
 }

@@ -51,7 +51,71 @@ nav{
     a:hover{
         text-shadow: 2px 2px 4px var(--glow);
     }
+    .burger {
+        position: relative;
+        width: 40px;
+        height: 30px;
+        background: transparent;
+        cursor: pointer;
+        display: block;
+    }
 
+    .burger input {
+        display: none;
+    }
+
+    .burger span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: black;
+        border-radius: 20px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+    }
+
+    .burger span:nth-of-type(1) {
+        top: 0;
+        transform-origin: left center;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .burger span:nth-of-type(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transform-origin: left center;
+    }
+
+    .burger span:nth-of-type(3) {
+        top: 100%;
+        transform-origin: left center;
+        transform: translateY(-100%);
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .burger input:checked ~ span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 0;
+        left: 5px;
+        width: 100%;
+    }
+
+    .burger input:checked ~ span:nth-of-type(2) {
+        width: 0;
+        opacity: 0;
+    }
+
+    .burger input:checked ~ span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 28px;
+        left: 5px;
+        width: 100%;
+    }
 }
 .dropdown {
     position: relative;
@@ -69,5 +133,44 @@ nav{
             text-decoration: none;
             display: block;
         }
+    }
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    *{color: black}
+    margin: 10px -10px ;
+    position: absolute;
+    background-color: rgba(95, 82, 211, 90%);
+    backdrop-filter: blur(2px);
+    padding: 0 10px;
+    height: calc(100vh - 85px);
+    width: 500px;
+    border-radius: 0 20px 20px 0;
+    h1{
+        margin: 15px 0 10px 0;
+    }
+}
+.mainburger{
+    margin: 0 0 auto 0;
+}
+.burgerextra{
+    max-height: 60px;
+    img{
+        height: 50px;
+    }
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+    align-self: flex-end;
+    a:hover{
+        filter: drop-shadow(0px 0px 2px var(--glow));
+    }
+    i{font-size: 60px;}
+}
+@media (max-width: 540px) {
+    .hamburger{
+        width: 90vw;
+        overflow: auto;
     }
 }

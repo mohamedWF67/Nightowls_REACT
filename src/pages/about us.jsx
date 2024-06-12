@@ -1,17 +1,13 @@
-
-import StickyBox from "react-sticky-box";
 import Header from "../components/Header/header.jsx";
 import Footer from "../components/footer/Footer.jsx";
-
-
+import AboutusComponent from "../components/about us/Aboutuscomponent.jsx";
 
 function About() {
+    document.title = "About Us";
     return (
         <>
-            <StickyBox offsetTop={10}><Header/></StickyBox>
-            <div>
-                <p>hello</p>
-            </div>
+            <Header/>
+                <AboutusComponent/>
             <Footer/>
         </>
     );
