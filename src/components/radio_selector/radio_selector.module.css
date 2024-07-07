@@ -1,8 +1,8 @@
 .catradiogroup{
-    margin: 20px;
+    margin: 20px 30px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    overflow: auto;
     input{
         display: none;
     }
@@ -16,7 +16,31 @@
         padding: 0 20px;
         border-radius: 20px;
         justify-content: space-between;
+        z-index: 1;
     }
+    .catradiogroup_nav{
+        *{margin: 0;
+        padding: 0;}
+        margin: 0 -30px;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 20px);
+        height: 60px;
+        i{
+            font-size: 30px;
+        }
+    }
+}
+.catradiogroup::-webkit-scrollbar{
+    display: none;
+}
+.catradiogroup_nav_btn:hover{
+    transform: scale(1.5);
+}
+.catradiogroup_nav_btn:active{
+    transform: scale(0.95);
 }
 .catradiogroup label:hover{
     border: 2px solid rgba(95, 82, 211, 0.50);

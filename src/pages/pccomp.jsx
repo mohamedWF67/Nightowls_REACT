@@ -12,15 +12,28 @@ function Pccomp() {
     ]
     const [category, setCategory] = useState(categories.at(0));
     document.title = category;
+
+    const catradio = document.getElementById("catradiogroup");
+
+    function right() {
+        catradio.scrollBy(300,0);
+    }
+    function left() {
+        catradio.scrollBy(-300,0);
+    }
     return (
             <>
                 <Header/>
-                <div className={styles.catradiogroup}>
+                <Prodcontainer upperelement={<div id={"catradiogroup"} className={styles.catradiogroup}>
+                    <div className={styles.catradiogroup_nav}>
+                        <button className={styles.catradiogroup_nav_btn} onClick={left}><i className={"bx bx-chevron-left"}/></button>
+                        <button className={styles.catradiogroup_nav_btn} onClick={right}><i className={"bx bx-chevron-right"}/></button>
+                    </div>
                     {categories.map((data, index) => (
-                        <RadioSelector id={index} key={index} value={data} name={"category"} checked={category === data} onchange={e => setCategory(e.target.value)}/>
+                        <RadioSelector id={index} key={index} value={data} name={"category"} checked={category === data}
+                                       onchange={e => setCategory(e.target.value)}/>
                     ))}
-                </div>
-                <Prodcontainer title={category} data={<Pccompdata category={category}/>}/>
+                </div>} title={category} data={<Pccompdata category={category}/>}/>
                 <Footer/>
             </>
     );

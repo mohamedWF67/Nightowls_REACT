@@ -102,7 +102,7 @@ function Requirements() {
     return (
         <>
         <Header/>
-        <Selecttable tbs={tables}  option={options} heading={"Select A Game"} onchange={e => setgame(e.target.value)} selvalue={game}
+        <Selecttable trans={true} tbs={tables}  option={options} heading={"Select A Game"} onchange={e => setgame(e.target.value)} selvalue={game}
                     selname={"game"}/>
         <Footer/>
 </>

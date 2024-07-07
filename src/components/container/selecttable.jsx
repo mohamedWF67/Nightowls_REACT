@@ -17,9 +17,9 @@ function Selecttable(props) {
                 </select>
             </form>
             <h3><em>Games Guider</em> provides you with specifications for the game you select.</h3>
-            {props.selvalue === "Valorant" && <Reqtable title={props.selvalue} data={tb} no={0}/>}
-            {props.selvalue === "Fortnite" && <Reqtable title={props.selvalue} data={tb} no={1}/>}
-            {props.selvalue === "Overwatch" && <Reqtable title={props.selvalue} data={tb} no={2}/>}
+            {props.selvalue === "Valorant" && <Reqtable trans={props.trans} title={props.selvalue} data={tb} no={0}/>}
+            {props.selvalue === "Fortnite" && <Reqtable trans={props.trans} title={props.selvalue} data={tb} no={1}/>}
+            {props.selvalue === "Overwatch" && <Reqtable trans={props.trans}  title={props.selvalue} data={tb} no={2}/>}
         </main>
     );
 
@@ -34,6 +34,10 @@ Selecttable.propTypes = {
     value: PropTypes.string,
     onchange: PropTypes.string,
     tbs: PropTypes.array,
+    trans: PropTypes.bool,
+}
+Selecttable.defaultProps = {
+    trans: false,
 }
 
 export default Selecttable

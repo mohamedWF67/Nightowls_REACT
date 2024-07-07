@@ -9,23 +9,35 @@ import Gamingdata from "../components/data/gamingdata.jsx";
 function Gamingpage() {
 
     const [category, setCategory] = useState("Mouse");
+    const categories = [
+        "Mouse","Keyboard","Headset","Mic"
+    ]
+
+    const catradio = document.getElementById("catradiogroup_gaming");
+
+    function right() {
+        catradio.scrollBy(300,0);
+    }
+    function left() {
+        catradio.scrollBy(-300,0);
+    }
+
     document.title = category;
     return (
         <>
             <Header/>
-            <main>
-                <div className={styles.catradiogroup}>
-                    <RadioSelector id={1} value={"Mouse"} name={"category"} checked={category === "Mouse"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                    <RadioSelector id={2} value={"Keyboard"} name={"category"} checked={category === "Keyboard"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                    <RadioSelector id={3} value={"Headset"} name={"category"} checked={category === "Headset"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                    <RadioSelector id={4} value={"Mic"} name={"category"} checked={category === "Mic"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                </div>
-                <Prodcontainer title={category} data={<Gamingdata category={category}/>}/>
-            </main>
+                <Prodcontainer upperelement={<div id={"catradiogroup_gaming"} className={styles.catradiogroup}>
+                    <div className={styles.catradiogroup_nav}>
+                        <button className={styles.catradiogroup_nav_btn} onClick={left}><i
+                            className={"bx bx-chevron-left"}/></button>
+                        <button className={styles.catradiogroup_nav_btn} onClick={right}><i
+                            className={"bx bx-chevron-right"}/></button>
+                    </div>
+                    {categories.map((data, index) => (
+                        <RadioSelector id={index} key={index} value={data} name={"category"} checked={category === data}
+                                       onchange={e => setCategory(e.target.value)}/>
+                    ))}
+                </div>} title={category} data={<Gamingdata category={category}/>}/>
             <Footer/>
         </>
     );

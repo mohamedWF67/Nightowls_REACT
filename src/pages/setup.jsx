@@ -11,7 +11,9 @@ function Setup() {
     document.title = "Setup";
 
     const [category, setCategory] = useState("Desk");
-
+    const categories = [
+        "Desk","Chair","Light"
+    ]
     return (
         <>
             <Header/>
@@ -20,15 +22,12 @@ function Setup() {
                     <h1>Get inspired</h1>
                     <a href={"inspire"} className={styles.getintoinspire_btn}>See now</a>
                 </div>
-                <div className={styles.catradiogroup}>
-                    <RadioSelector id={1} value={"Desk"} name={"category"} checked={category === "Desk"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                    <RadioSelector id={2} value={"Chair"} name={"category"} checked={category === "Chair"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                    <RadioSelector id={3} value={"Light"} name={"category"} checked={category === "Light"}
-                                   onchange={e => setCategory(e.target.value)}/>
-                </div>
-                <Prodcontainer title={category} data={<Setupdata category={category}/>}/>
+                <Prodcontainer upperelement={<div className={styles.catradiogroup}>
+                    {categories.map((data, index) => (
+                        <RadioSelector id={index} key={index} value={data} name={"category"} checked={category === data}
+                                       onchange={e => setCategory(e.target.value)}/>
+                    ))}
+                </div>} title={category} data={<Setupdata category={category}/>}/>
             </main>
             <Footer/>
         </>

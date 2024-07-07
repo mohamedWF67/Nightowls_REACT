@@ -1,7 +1,7 @@
 .aboutuscontainer{
-    padding: 10px 0 0;
-    *{box-sizing: border-box}
-    h1{text-align: center; font-size: 60px;margin: 10px 0}
+    padding: 10px 10px 0;
+    *{margin: 0;box-sizing: border-box}
+    h1{text-align: center; font-size: 60px;margin: 10px 0 15px}
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,14 +9,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 10px;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
+        gap: 30px 10px;
     }
     .aboutus_big{
         box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
         background-color: rgba(255, 255, 255, 0.074);
-        width: 98%;
+        width: 100%;
         border-radius: 20px;
         h1{text-align: center;}
         p{font-size: 45px;font-weight: normal}
@@ -26,21 +25,20 @@
     .aboutus_b1{
         box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
         background-color: rgba(255, 255, 255, 0.074);
-        width: 48%;
+        width: 49.5%;
         border-radius: 20px;
         h1{text-align: left;}
-        p{font-size: 45px;font-weight: normal}
-        padding: 20px;
-        height: auto;
+        p{opacity: 90%; font-size: 45px;font-weight: normal}
+        padding: 20px 30px 30px;
     }
     .aboutus_b2{
         box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
         background-color: rgba(255, 255, 255, 0.074);
-        width: 48%;
+        width: 49.5%;
         border-radius: 20px;
         h1{text-align: left;}
-        p{font-size: 45px;font-weight: normal}
-        padding: 20px;
+        p{opacity: 90%; font-size: 45px;font-weight: normal}
+        padding: 20px 30px 30px;
     }
     .aboutus_b1:hover{
         transform: scale(1.01);

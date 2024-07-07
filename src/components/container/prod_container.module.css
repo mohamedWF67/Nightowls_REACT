@@ -6,3 +6,12 @@
     justify-content: center;
     padding: 25px;
 }
+.full{
+    height: 100%;
+}
+@media (max-width: 805px) {
+    .cardlayout{
+        gap: 10px;
+        padding: 10px;
+    }
+}

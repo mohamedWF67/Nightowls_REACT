@@ -25,7 +25,6 @@ body{margin: 10px;background: var(--background);min-height: 98vh;}
 #root{
     min-height: inherit;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 button{cursor: pointer;border: none;appearance: none;background-color: inherit;}
@@ -38,10 +37,12 @@ a{text-decoration: none;}
     --accent: #5f52d3;
     --glow: #c2affa;
     --grid: #171717;
+    --trans-background: rgba(0, 0, 0, 0.60);
     --shadow: rgba(255,255,255,0.2);
     --border: rgba(255, 255, 255, 0.25);
     --hr: rgba(255, 255, 255,0.25);
     --table: rgba(255, 255, 255, 0.074);
+    --invert: 1;
 }
 [data-theme="dark"] {
     --text: #000000;
@@ -51,9 +52,11 @@ a{text-decoration: none;}
     --accent: #5f52d3;
     --glow: #c2affa;
     --grid: #171717;
+    --trans-background: rgba(255,255,255,0.60);
     --shadow: rgba(0,0,0,0.6);
     --border: rgba(0,0,0,0.25);
     --hr: rgba(0,0,0,0.50);
     --table: rgba(0, 0, 0, 0.074);
     --textshadow: rgba(95,82,211,1);
+    --invert: 0;
 }

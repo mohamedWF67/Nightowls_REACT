@@ -15,19 +15,21 @@ function Darkmode() {
 
     const selectedTheme = localStorage.getItem("SelectedTheme");
 
-    if (selectedTheme === "dark"){
-        setDarkMode();
-    }else if(selectedTheme === "light"){
-        setLightMode();
+    switch (selectedTheme){
+        case "dark":
+            setDarkMode();
+            break
+        case "light":
+            setLightMode();
+            break
     }
-
     const toggleDarkMode = e => {
         (e.target.checked ? setDarkMode():setLightMode());
     }
     return (
-                <a>
+                <a className={styles.darkmodeicon}>
                 <input className={styles.checkbox} type="checkbox" id={"darkmode"} name="darkmode" defaultChecked={selectedTheme === "dark"} onChange={toggleDarkMode}/>
-                <label htmlFor="darkmode"><img  src={darkmode} alt="darkmode"/></label>
+                <label htmlFor="darkmode"><img src={darkmode} alt="darkmode"/></label>
                 </a>
     );
 }

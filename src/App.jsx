@@ -17,6 +17,7 @@ import Contactuspage from "./pages/contact.jsx";
 import Cartpage from "./pages/cartpage.jsx";
 import Gamingpage from "./pages/gaming.jsx";
 import Hardwareenhancement from "./pages/hardwareenhancement.jsx";
+import Testpage from "./pages/mongo test.jsx";
 function App() {
     return (
     <BrowserRouter>
@@ -41,6 +42,7 @@ function App() {
             <Route path="/cart" element={<Cartpage/>} />
             <Route path="/gaming" element={<Gamingpage/>} />
             <Route path="/hardware" element={<Hardwareenhancement/>} />
+            <Route path="/mongodb" element={<Testpage/>} />
         </Routes>
     </BrowserRouter>
     );

@@ -6,13 +6,14 @@ import styles from "./prod_container.module.css";
 function Prodcontainer(props) {
 
     return (
-        <>
-        <Product_tag title={props.title}/>
+        <div className={styles.full}>
+            {props.upperelement && <div className={styles.upperelement}>{props.upperelement}</div>}
+            <Product_tag title={props.title}/>
             {props.innerelement && <div className={styles.innerelement}>{props.innerelement}</div>}
         <div className={styles.cardlayout}>
             {props.data}
         </div>
-        </>
+        </div>
     );
 
 }
@@ -20,6 +21,7 @@ Prodcontainer.propTypes = {
     title: PropTypes.string,
     data: PropTypes.string,
     innerelement: PropTypes.string,
+    upperelement: PropTypes.string,
 }
 
 export default Prodcontainer
