@@ -23,7 +23,7 @@ function AboutusComponent() {
                 <div className={styles.aboutus_big}>
                     <h1>Our team</h1>
                     <p>We really enjoyed making this website it was a very wonderful experience having such a great team.</p>
-                    <img src={"https://mohamedwf67.github.io/project-web-prep/products/img.png"}/>
+                    <img className={styles.aboutus_img} src={"https://mohamedwf67.github.io/project-web-prep/products/img.png"}/>
                     <p>Thanks to<br/>
                         Manager: Mohamed Waleed<br/>
                         Creative minds: Habiba Harfoosh, Mayan Nassar<br/>
