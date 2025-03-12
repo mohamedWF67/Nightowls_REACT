@@ -1,6 +1,8 @@
 # PROJECT Nightowls but in React JS
 
-Created using React JS and pure CSS 
+Code written using Jetbrains' Webstorm
+
+Created using React JS and pure CSS and hosted using Vercel.app
 
 Currently, two official plugins are available:
 
