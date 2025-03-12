@@ -1,6 +1,8 @@
 # PROJECT Nightowls but in React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Code written using Jetbrains' Webstorm
+
+Created using React JS and pure CSS and hosted using Vercel.app
 
 Currently, two official plugins are available:
 
