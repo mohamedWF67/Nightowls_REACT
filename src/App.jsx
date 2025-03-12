@@ -42,7 +42,7 @@ function App() {
             <Route path="/cart" element={<Cartpage/>} />
             <Route path="/gaming" element={<Gamingpage/>} />
             <Route path="/hardware" element={<Hardwareenhancement/>} />
-            <Route path="/mongodb" element={<Testpage/>} />
+            <Route path="/TEST" element={<Testpage/>} />
         </Routes>
     </BrowserRouter>
     );
