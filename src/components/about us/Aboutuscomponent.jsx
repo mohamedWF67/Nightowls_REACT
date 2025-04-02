@@ -27,7 +27,7 @@ function AboutusComponent() {
                     <p>Manager: Mohamed Waleed<br/>
                         Creative minds: Habiba Harfoosh, Mayan Nassar<br/>
                         Graphics: Mazen Mohamed<br/>
-                        Special thanks to TA.Rana Khalil.
+                        Special thanks to TA.Rana Khalil
                     </p>
                 </div>
             </div>

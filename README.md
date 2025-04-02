@@ -1,4 +1,4 @@
-# PROJECT [Nightowls](https://github.com/mohamedWF67/project-web-prep) but in React JS
+# PROJECT [Nightowls](https://github.com/mohamedWF67/NightOwls) but in React JS
 
 Code written using Jetbrains' Webstorm
 

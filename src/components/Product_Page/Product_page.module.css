@@ -8,7 +8,7 @@
         display: flex;
         flex-direction: row;
         box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
-        background-color: rgba(255, 255, 255, 0.074);
+        background-color: var(--trans-background);
         .product_img{
             padding: 10px;
             display: flex;
@@ -28,7 +28,7 @@
         .product_info{
             padding: 10px 30px;
             .product_price{
-
+                color: var(--accent);
             }
         }
     }
