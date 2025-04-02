@@ -18,7 +18,17 @@ import Cartpage from "./pages/cartpage.jsx";
 import Gamingpage from "./pages/gaming.jsx";
 import Hardwareenhancement from "./pages/hardwareenhancement.jsx";
 import Testpage from "./pages/mongo test.jsx";
+import ProductPage from "./components/Product_Page/Product_Page.jsx";
+import productsData from './products.json';
+import {useEffect, useState} from "react";
 function App() {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        // In a real app, you'd fetch this data from an API
+        setProducts(productsData);
+    }, []);
+
     return (
     <BrowserRouter>
         <Routes>
@@ -43,6 +53,10 @@ function App() {
             <Route path="/gaming" element={<Gamingpage/>} />
             <Route path="/hardware" element={<Hardwareenhancement/>} />
             <Route path="/TEST" element={<Testpage/>} />
+            <Route
+                path="/products/:productId"
+                element={<ProductPage products={products} />}
+            />
         </Routes>
     </BrowserRouter>
     );

@@ -1,0 +1,970 @@
+[
+  {
+    "id": "e5a820d5-df92-4337-b5db-38915e8f2634",
+    "brand": "Nintendo",
+    "name": "Switch 32GB Lite - Turquoise",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6257/6257139_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "9,650",
+    "category": "consoles"
+  },
+  {
+    "id": "f3e89b16-b65d-44b1-a3ad-b370e9f4d706",
+    "brand": "Nintendo",
+    "name": "Switch with Neon Blue and Neon Red Joy‑Con - Multi ",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522225_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "14,476",
+    "category": "consoles"
+  },
+  {
+    "id": "cf5e0a45-501e-45e4-aef7-d02a3f4f5c16",
+    "brand": "Nintendo",
+    "name": "Nintendo - Switch – OLED Model w/ Neon Red & Neon Blue Joy-Con - Multi",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470924_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "16,889",
+    "category": "consoles"
+  },
+  {
+    "id": "4b512d91-9d56-47e6-a28b-cda242b72b1b",
+    "brand": "Microsoft",
+    "name": "Xbox Series S 1TB All-Digital Console (Disc-Free Gaming) - Black",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6547/6547877_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "16,889",
+    "category": "consoles"
+  },
+  {
+    "id": "3c80b65a-3f36-4b68-a62f-0f55d78ac7ba",
+    "brand": "Microsoft",
+    "name": "Xbox Series X 1TB Console - Black",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6428/6428324_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "24,122",
+    "category": "consoles"
+  },
+  {
+    "id": "a2c08522-bdfd-47d0-b02d-045b9d0bb469",
+    "brand": "Microsoft",
+    "name": "Xbox Series S 512GB All-Digital Starter Bundle Console with Xbox Game Pass (Disc-Free Gaming) - White",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6558/6558673_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "14,200",
+    "category": "consoles"
+  },
+  {
+    "id": "7602ad6b-3189-4738-b9f3-95a0eeb39d1e",
+    "brand": "Sony",
+    "name": "PlayStation 5 Slim Console - White",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566039_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "24,122",
+    "category": "consoles"
+  },
+  {
+    "id": "c6722767-1c67-4f7a-bac6-d6f3a199b804",
+    "brand": "Sony",
+    "name": "PlayStation 5 Slim Console – Marvel's Spider-Man 2 Bundle (Full Game Download Included) - White",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6565/6565065_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "24,122",
+    "category": "consoles"
+  },
+  {
+    "id": "2cc09d0b-5c30-4647-86b2-37ea1c47a48e",
+    "brand": "CORSAIR",
+    "name": "K100 OPX Keyboard + SCIMITAR ELITE Mouse + HS80 WIRELESS Headset",
+    "img": "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/akamai/pdp/bundles/K100_SCIMITAR_HS80.webp?width=1080&quality=85&auto=webp&format=pjpg",
+    "price": "20200",
+    "category": "collection"
+  },
+  {
+    "id": "124d2902-9fa7-4324-8cc0-35c15803f02f",
+    "brand": "CORSAIR",
+    "name": "M65 ULTRA WIRELESS Mouse + HS80 WIRELESS Headset + K70 PRO MINI Keyboard",
+    "img": "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Bundles/K70-MINI-HS80-M65-WS-BLACK/-K70-MINI-HS80-M65-WS-BLACK-Gallery-K70-MINI-HS80-M65-WS-BLACK.webp?width=1080&quality=85&auto=webp&format=pjpg",
+    "price": "20600",
+    "category": "collection"
+  },
+  {
+    "id": "6c634d7e-13f3-4bc3-85d9-61f6c3d5fa57",
+    "brand": "CORSAIR",
+    "name": "VOID ELITE Headset + IRONCLAW Mouse + K60 PRO Keyboard Bundle",
+    "img": "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Bundles/BL-50006-NA/-BL-50006-NA-Gallery-competitive-gamer-comp.webp?width=1080&quality=85&auto=webp&format=pjpg",
+    "price": "12303",
+    "category": "collection"
+  },
+  {
+    "id": "dc5e81b1-128b-40ea-8e2c-71902a4043a2",
+    "brand": "Razer",
+    "name": "Kraken Power Up Bundle",
+    "img": "https://www.games2egypt.com/Images/Products/31573?fileFormat=1&height=500",
+    "price": "4049",
+    "category": "collection"
+  },
+  {
+    "id": "9579d7a2-f0f4-4a2d-bc8c-4a3b7b392fe1",
+    "brand": "logitech G",
+    "name": "G915 Lightspeed RGB Mechanical Gaming Keyboard Powerplay Wireless Charging System Bundle",
+    "img": "https://m.media-amazon.com/images/I/315UMiVjgUL._AC_SY450_.jpg",
+    "price": "15150",
+    "category": "collection"
+  },
+  {
+    "id": "7f5101b1-b585-431b-91f0-33c8db9ef997",
+    "brand": "MSI",
+    "name": "ADVENTURE 202",
+    "img": "https://asset.msi.com/resize/image/global/product/product_1626935545f03c71f0136772708d73a987bfa1467d.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+    "price": "2700",
+    "category": "collection"
+  },
+  {
+    "id": "19c4acbb-d4f3-47db-a9f5-d7a33b209b5c",
+    "brand": "Redragon",
+    "name": "K552-BB - PC GAMER VALUE SET",
+    "img": "https://www.redragonzone.com/cdn/shop/products/K552-BB-1_180x.png?v=1533018865",
+    "price": "2000",
+    "category": "collection"
+  },
+  {
+    "id": "ba31e49f-28b0-4c27-9c2a-39561ac0cf48",
+    "brand": "Glorious",
+    "name": "Model O- Minus Wireless Optical Honeycomb RGB Gaming Mouse - Matte White - Matte White",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528045_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "3350",
+    "category": "Mouse"
+  },
+  {
+    "id": "bfc77f80-d51f-4fc6-bda1-b999798fd85c",
+    "brand": "Razer",
+    "name": "Basilisk V3 Wired Optical Gaming Mouse with Chroma RBG Lighting - Black",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6475/6475703_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "2150",
+    "category": "Mouse"
+  },
+  {
+    "id": "03de900b-d663-44da-980e-f6055be01c77",
+    "brand": "Logitech G",
+    "name": "G502 X PLUS LIGHTSPEED Wireless Gaming Mouse with HERO 25K Sensor - Black",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6512/6512122_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "6360",
+    "category": "Mouse"
+  },
+  {
+    "id": "56f20b2d-7abf-4533-aee9-b1cc1e5c199b",
+    "brand": "Logitech G",
+    "name": "PRO X SUPERLIGHT Lightweight Wireless Optical Gaming Mouse with HERO 25K Sensor - White",
+    "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6440/6440537_sd.jpg;maxHeight=640;maxWidth=550",
+    "price": "5500",
+    "category": "Mouse"
+  },
+  {
+      "id": "2c3f05fc-b4fc-42f7-b0b2-bd529e4b8e7b",
+      "brand": "ROCCAT",
+      "name": "Burst Pro Air Lightweight Symmetrical, Wireless RGB Gaming Mouse with 19K DPI Optical Owl-Eye Sensor, Optical Switches, Titan Wheel, 81-Gram Weight – Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6508/6508305_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "1600",
+      "category": "Mouse"
+    },
+    {
+      "id": "6b663d6b-b43d-42d2-b566-b2c21b37a809",
+      "brand": "SteelSeries",
+      "name": "Rival 3 Lightweight Wireless Optical Gaming Mouse with Brilliant Prism RGB Lighting - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6439/6439122_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "2400",
+      "category": "Mouse"
+    },
+    {
+      "id": "09d760ad-7275-4a93-9c88-1b1589b0b8fe",
+      "brand": "HyperX",
+      "name": "Alloy Core Full-size Wired Gaming Membrane Keyboard with RGB Lighting - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6283/6283508_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "1900",
+      "category": "Keyboard"
+    },
+    {
+      "id": "0d3e57b4-3176-4d97-b5b1-d08398b79ac5",
+      "brand": "SteelSeries",
+      "name": "Apex Pro 2023 TKL Wired Mechanical OmniPoint 2.0 Adjustable Actuation Switch Gaming Keyboard with RGB Backlighting - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519673_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "7200",
+      "category": "Keyboard"
+    },
+    {
+      "id": "f665ff61-5c50-47b9-baf4-59734be44dbb",
+      "brand": "Razer",
+      "name": "Blackwidow V3 Full Size Wired Mechanical Green Clicky Tactile Switch Gaming Keyboard with Chroma RGB Backlighting - Quartz",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425362_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "4785",
+      "category": "Keyboard"
+    },
+    {
+      "id": "9d53c8f7-90f2-477a-a110-f4b14d2ca708",
+      "brand": "Razer",
+      "name": "BlackWidow V4 Pro Full Size Wired Mechanical Green Switch Gaming Keyboard with Chroma RGB - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531755_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "9200",
+      "category": "Keyboard"
+    },
+    {
+      "id": "9f4b9288-c3d5-4283-bcb5-27c81e0f90a3",
+      "brand": "Logitech G",
+      "name": "G915 LIGHTSPEED Full-size Wireless Mechanical GL Clicky Switch Gaming Keyboard with RGB Backlighting - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360844_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "12000",
+      "category": "Keyboard"
+    },
+    {
+      "id": "c2ec9b34-1e73-4029-a19d-98c5807102bc",
+      "brand": "SteelSeries",
+      "name": "Apex 3 Full Size Wired Membrane Whisper Quiet Switch Gaming Keyboard with 10 zone RGB Backlighting - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6396/6396205ld.jpg;maxHeight=640;maxWidth=550",
+      "price": "2390",
+      "category": "Keyboard"
+    },
+    {
+      "id": "fae82c7b-2d65-44b2-81cc-d4313b54ca94",
+      "brand": "Logitech G",
+      "name": "G PRO X Wireless Gaming Headset for PC - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420879cv11d.jpg;maxHeight=640;maxWidth=550",
+      "price": "6600",
+      "category": "Headset"
+    },
+    {
+      "id": "c2a2f5e3-d40b-42a6-bf75-b2d7c7e82b24",
+      "brand": "Logitech G",
+      "name": "G733 LIGHTSPEED Wireless Gaming Headset for PS4, PC - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420856_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "5500",
+      "category": "Headset"
+    },
+    {
+      "id": "04e2760d-e6fc-4163-91fe-cb1dff54a5ed",
+      "brand": "Razer",
+      "name": "Kraken Kitty Edition V2 Pro Wired Gaming Headset - Quartz Pink",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538905_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "9570",
+      "category": "Headset"
+    },
+    {
+      "id": "feab4dbb-2fae-4de1-a8a0-b3ed415fa855",
+      "brand": "Logitech G",
+      "name": "Astro A50 X LIGHTSPEED Wireless with PLAYSYNC Gaming Headset + Base Station for Xbox Series X|S, PS5, PC/MAC - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6572/6572603_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "18950",
+      "category": "Headset"
+    },
+    {
+      "id": "32ad4d79-9c0f-4f8d-a634-e720d949e58b",
+      "brand": "HyperX",
+      "name": "Cloud Stinger 2 Wired Gaming Headset for PC - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6518/6518171_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "2300",
+      "category": "Headset"
+    },
+    {
+      "id": "8245d01b-4461-488f-b44b-8df28dbbcb7f",
+      "brand": "HyperX",
+      "name": "Cloud Stinger Core Wireless Gaming Headset for PC, PS5, and PS4 - White",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6431/6431194_rd.jpg;maxHeight=640;maxWidth=550",
+      "price": "1800",
+      "category": "Headset"
+    },
+    {
+      "id": "96db6d3d-6b28-40f3-bfa7-6d8b679b4e8f",
+      "brand": "HyperX",
+      "name": "QuadCast S Wired Multi-Pattern USB Electret Condenser Microphone",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6434/6434274cv12d.jpg;maxHeight=640;maxWidth=550",
+      "price": "8000",
+      "category": "Mic"
+    },
+    {
+      "id": "e2c4e06c-b496-4606-9fc5-4d5f772d9da7",
+      "brand": "Blue Microphones",
+      "name": "Yeti X Professional USB Multi-Pattern Condenser Microphone",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6367/6367477_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "6700",
+      "category": "Mic"
+    },
+    {
+      "id": "b8461e3c-4b87-4bb3-8292-d4f21bc63319",
+      "brand": "Blue Microphones",
+      "name": "Blue Yeti Professional Multi-Pattern USB Condenser Microphone",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4758/4758301cv22d.jpg;maxHeight=640;maxWidth=550",
+      "price": "4700",
+      "category": "Mic"
+    },
+    {
+      "id": "97e2a6fc-1f50-4575-8433-63de5c6de8f1",
+      "brand": "Samson",
+      "name": "Q9U XLR/USB Dynamic Broadcast Microphone",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6428/6428835_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "7100",
+      "category": "Mic"
+    },
+    {
+      "id": "02a4659b-f69f-43b8-bbff-bb498fd15ac3",
+      "brand": "Logitech G",
+      "name": "Yeti Orb Wired Cardioid Condenser Gaming Microphone with LIGHTSYNC RGB Lights",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556752_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "1600",
+      "category": "Mic"
+    },
+    {
+      "id": "e2136b6f-d2de-42c4-b2d7-c579f4604423",
+      "brand": "RØDE",
+      "name": "NT-USB+ Wired Condenser Microphone with USB Type-C",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530807_rd.jpg;maxHeight=640;maxWidth=550",
+      "price": "8200",
+      "category": "Mic"
+    },
+    {
+      "id": "e2c4f2f9-0d9a-4c62-9d71-23c2d3cb68b7",
+      "brand": "ASUS",
+      "name": "ROG Zephyrus M16 16 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535501_sd.jpg",
+      "price": "75,756",
+      "category": "laptop"
+    },
+    {
+      "id": "d93b7d82-1b06-4a2e-9b88-5f3e47ec56fa",
+      "brand": "ASUS",
+      "name": "ROG Zephyrus G14 14” 165Hz Gaming Laptop QHD-AMD Ryzen 7 7735HS with 16GB DDR5 Memory-NVIDIA RTX 4050 6G-512GB SSD - Moonlight White",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535497_sd.jpg",
+      "price": "42,612",
+      "category": "laptop"
+    },
+    {
+      "id": "f7c39552-2552-4cd5-8a58-bffcc218773d",
+      "brand": "ASUS",
+      "name": "ROG Strix 18 240Hz Gaming Laptop QHD-Intel 14th Gen Core i9 with 32GB Memory-NVIDIA GeForce RTX 4080-2TB SSD - Eclipse Gray",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570224_sd.jpg",
+      "price": "123,103",
+      "category": "laptop"
+    },
+    {
+      "id": "6bcf5ff2-0c77-4852-8768-709ab960def8",
+      "brand": "MSI",
+      "name": "Stealth 16 144hz FHD+ Gaming Laptop - Intel Core i7 13620H - NVIDIA GeForce RTX 4070 with 32GB RAM and 1TB SSD - Blue",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534581_sd.jpg",
+      "price": "75,756",
+      "category": "laptop"
+    },
+    {
+      "id": "9c232645-f02a-4743-8d8c-59906a0cd7d7",
+      "brand": "HP OMEN",
+      "name": "Transcend 14 120Hz 2.8K OLED Gaming Laptop - Intel Core Ultra 7-155H - 16GB Memory - NVIDIA GeForce RTX 4060 - 1TB SSD - Shadow Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6569/6569023_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "80,496",
+      "category": "laptop"
+    },
+    {
+      "id": "2f2c01ac-7604-40a4-a839-f03c9adf96b0",
+      "brand": "Alienware",
+      "name": "x16 FHD+ 480Hz Gaming Laptop - Intel Core i9 13900HK - 32GB Memory - NVIDIA GeForce RTX 4080 - 1TB SSD - Lunar Silver",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560994_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "158,500",
+      "category": "laptop"
+    },
+    {
+      "id": "1e7a2536-c5b2-47e6-b85e-6ad0e4db9c58",
+      "brand": "ASUS",
+      "name": "ROG Flow X16 16 Touchscreen Gaming Laptop QHD-Intel Core i9 with 16GB DDR5 Memory-NVIDIA GeForce RTX 4060 V8G -1TB SSD - Off Black",
+      "img": "https://dlcdnwebimgs.asus.com/files/media/C2118EAC-69AE-4260-AC1D-D574E9575F17/v1/img/display/rog-flow-x16.png",
+      "price": "44,035",
+      "category": "laptop"
+    },
+    {
+      "id": "d7f9b9f2-8086-4b87-8973-d8752f2e6a28",
+      "brand": "NZXT",
+      "name": "Player: One i5-12400F, RTX™ 3050, 16GB DDR5-5200, 500GB NVMe WHITE",
+      "img": "https://www.datocms-assets.com/34299/1715743056-player-one-base-ww-04-09-24-hero-white-badge.png?ixlib=js-3.8.0&w=500&h=500&dpr=1&q=75",
+      "price": "37,857",
+      "category": "pre-built"
+    },
+    {
+      "id": "d7b2e3cc-1259-463a-87c2-e8f3835773e2",
+      "brand": "CORSAIR",
+      "name": "ONE PRO a200 Ryzen 9 5950X, RTX 3080, 64GB DDR4-3200, 2TB M.2, 2TB HDD",
+      "img": "https://i5.walmartimages.com/seo/Corsair-ONE-PRO-a200-Workstation-AMD-Ryzen-9-5950X-64-GB-DDR4-SDRAM-RAM-2-TB-HDD-2-TB-SSD_b8197ada-8bdf-43b1-b653-138e05c0a527.2a04dec1b13924f32f26f4386fdae135.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "price": "189,512",
+      "category": "pre-built"
+    },
+    {
+      "id": "a745bb3e-9054-4608-9f59-c46a96b6f905",
+      "brand": "ALIENWARE",
+      "name": "AURORA R16 i7 14700F,RTX™ 4060 8GB,16 GB DDR5-5800,1TB NVMe",
+      "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/alienware-aurora-r16/media-gallery/liquid/desktop-aw-r16-bk-lqd-cooling-gallery-3.psd?fmt=pjpg&pscan=auto&scl=1&hei=402&wid=476&qlt=100,1&resMode=sharp2&size=476,402&chrss=full",
+      "price": "66,330",
+      "category": "pre-built"
+    },
+    {
+      "id": "292e3d67-c043-4169-8a29-930324d3b50b",
+      "brand": "NZXT",
+      "name": "Player: Three Prime i9-14900KF, RTX™ 4090 GB, 128GB DDR5-6000, 5TB NVMe WHITE",
+      "img": "https://www.datocms-assets.com/34299/1712469376-player-three-prime-ww-03-22-24-hero-white-badge.png?ixlib=js-3.8.0&w=500&h=500&dpr=1&q=75",
+      "price": "200,856",
+      "category": "pre-built"
+    },
+    {
+      "id": "795f25c0-2c7f-41c0-a45a-d1f3e71eb278",
+      "brand": "CyberPowerPC",
+      "name": "Gamer Supreme Gaming Desktop - AMD Ryzen 7 7800X3D - 32GB Memory - AMD Radeon RX 7800 XT 16GB - 2TB SSD - White",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6575/6575116_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "75,758",
+      "category": "pre-built"
+    },
+    {
+      "id": "7b7c5f3d-b91a-4bfe-8771-f76f39cc7e2a",
+      "brand": "HP OMEN",
+      "name": "25L Gaming Desktop - AMD Ryzen 5 5600G - 16GB Memory - AMD Radeon RX 7600 - 1TB SSD - Shadow Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562652_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "44,035",
+      "category": "pre-built"
+    },
+    {
+      "id": "5a1a64d4-8f5c-4095-b93a-8339be3bcb64",
+      "brand": "Intel",
+      "name": "Core i9-14900K 14th Gen 24-Core 32-Thread - 4.4GHz (6.0GHz Turbo) Socket LGA 1700 Unlocked Desktop Processor",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560418_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "30450",
+      "category": "CPU"
+    },
+    {
+      "id": "8a4c12f1-ffb5-429e-bbfc-d19bff98c4e1",
+      "brand": "Intel",
+      "name": "Core i7-14700K 14th Gen 20-Core 28-Thread - 4.3GHz (5.6GHz Turbo) Socket LGA 1700 Unlocked Desktop Processor",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560420_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "23610",
+      "category": "CPU"
+    },
+    {
+      "id": "f92b81be-b7c6-4130-b5f5-2085e3320c01",
+      "brand": "Intel",
+      "name": "Core i5-14600K 14th Gen 14-Core 20-Thread - 4.0GHz (5.3GHz Turbo) Socket LGA 1700 Unlocked Desktop Processor",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6560/6560423_sd.jpg;maxHeight=640;maxWidth=550",
+      "price": "16599",
+      "category": "CPU"
+    },
+    {
+      "id": "bd01e63f-bef9-4e6f-b58d-d5f5e8cb790b",
+      "brand": "AMD",
+      "name": "Ryzen 9 7950X 16-core - 32-Thread 4.5GHz (5.7 GHz Max Boost) Socket AM5 Desktop Processor - Silver",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519470cv11d.jpg;maxHeight=640;maxWidth=550",
+      "price": "30450",
+      "category": "CPU"
+    },
+    {
+      "id": "2b0f3bbd-7228-475d-b06e-9b6291b0043f",
+      "brand": "AMD",
+      "name": "Ryzen 7 7800X3D 8-Core - 16-Thread 4.2 GHz (5.0 GHz Max Boost) Socket AM5 Unlocked Desktop Processor - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537139cv11d.jpg;maxHeight=640;maxWidth=550",
+      "price": "20420",
+      "category": "CPU"
+    },
+    {
+      "id": "771d5f60-c7e0-44b2-b65e-2d9f238f156b",
+      "brand": "AMD",
+      "name": "Ryzen 5 7600X 6-core - 12-Thread 4.7GHz (5.3 GHz Max Boost) Socket AM5 Desktop Processor - Silver",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519479cv11d.jpg;maxHeight=640;maxWidth=550",
+      "price": "12760",
+      "category": "CPU"
+    },
+    {
+      "id": "d70f8822-7e93-4c84-b8f6-60c2c7ff767d",
+      "brand": "NVIDIA",
+      "name": "GeForce RTX 4080 SUPER 16GB GDDR6X Graphics Card - Titanium/Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6570/6570219cv1d.jpg;maxHeight=200;maxWidth=300",
+      "price": "50000",
+      "category": "GPU"
+    },
+    {
+      "id": "70c91f6e-65f6-45ae-8a50-e7be407351b4",
+      "brand": "XFX",
+      "name": "AMD Radeon RX 580 GTS XXX Edition 8GB GDDR5 PCI Express 3.0 Graphics Card - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6136/6136515_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "6750",
+      "category": "GPU"
+    },
+    {
+      "id": "b08769a1-b4e4-48d1-b2f7-b99f34f7c37f",
+      "brand": "XFX",
+      "name": "SPEEDSTER SWFT210 AMD Radeon RX 6650XT Core 8GB GDDR6 PCI Express 4.0 Gaming Graphics Card - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6513/6513906_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "12499",
+      "category": "GPU"
+    },
+    {
+      "id": "5f51a3ad-78e6-4ef3-b826-8f0931b97a72",
+      "brand": "XFX",
+      "name": "Speedster MERC310 AMD Radeon RX 7900XTX 24GB GDDR6 PCI Express 4.0 Gaming Graphics Card - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528715_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "123103",
+      "category": "GPU"
+    },
+    {
+      "id": "2bc441c3-4047-4527-9bc1-1f3a530fd720",
+      "brand": "GIGABYTE",
+      "name": "NVIDIA GeForce RTX 4090 Gaming OC 24GB GDDR6X PCI Express 4.0 Graphics Card - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521518_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "75756",
+      "category": "GPU"
+    },
+    {
+      "id": "1a8e356d-1f8f-4d6e-a02c-9f4bdbcfba75",
+      "brand": "ASUS",
+      "name": "NVIDIA GeForce RTX 4060 Overclock 8GB GDDR6 PCI Express 4.0 Graphics Card - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6549/6549640_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "80496",
+      "category": "GPU"
+    },
+    {
+      "id": "b6f23c6d-89a0-45b1-9270-42061c73fc3f",
+      "brand": "ASUS",
+      "name": "ROG STRIX Z790-E GAMING WIFI (Socket LGA 1700) USB 3.2 Intel Motherboard",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523725cv1d.jpg;maxHeight=640;maxWidth=550",
+      "price": "18940",
+      "category": "Motherboard"
+    },
+    {
+      "id": "a7ef9b08-26d1-4a93-818b-d35aaf31c73b",
+      "brand": "MSI",
+      "name": "MAG B760 TOMAHAWK WIFI DDR4 (Socket LGA 1700) USB 3.2 Intel Motherboard - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530193_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "7620",
+      "category": "Motherboard"
+    },
+    {
+      "id": "3446b502-2809-4f29-900b-e8fd47b9b9a5",
+      "brand": "ASUS",
+      "name": "ROG MAXIMUS Z790 HERO (Socket LGA 1700) USB 3.2 Intel Motherboard",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523718_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "87599",
+      "category": "Motherboard"
+    },
+    {
+      "id": "9358e395-2895-4e56-800d-3c3852d13a5f",
+      "brand": "GIGABYTE",
+      "name": "B650 AORUS ELITE AX (Socket AM5) USB 3.2 Gen2 AMD Motherboard - Black",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523178_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "10199",
+      "category": "Motherboard"
+    },
+    {
+      "id": "b0d2ea5f-b83f-4cf6-bf8a-c7e385e3c12b",
+      "brand": "ASUS",
+      "name": "ROG STRIX B650E-F GAMING WIFI (Socket AM5) USB 3.2 AMD Motherboard",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523721_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "15640",
+      "category": "Motherboard"
+    },
+    {
+      "id": "993b8397-7d68-492a-bc7a-249df0196cbb",
+      "brand": "ASUS",
+      "name": "ROG CROSSHAIR X670E HERO (Socket AM5) USB-C Gen2 AMD Motherboard with LED Lighting",
+      "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523724_sd.jpg;maxHeight=200;maxWidth=300",
+      "price": "34000",
+      "category": "Motherboard"
+    },
+      {
+        "id": "5d47d7f9-2dbd-4f8d-8b30-bc4ef342de7c",
+        "brand": "CORSAIR",
+        "name": "Vengeance RGB PRO 16GB (2PK x 8GB) 3200MHz DDR4",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6256/6256216_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "3300",
+        "category": "RAM"
+      },
+      {
+        "id": "8bda2051-8ed9-4b87-86f9-4a9d515d68c1",
+        "brand": "CORSAIR",
+        "name": "VENGEANCE 32GB (2x16GB) 6000MHz DDR5",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562314_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "4500",
+        "category": "RAM"
+      },
+      {
+        "id": "93c5934a-f2ad-47be-89bc-bfd604edab4f",
+        "brand": "CORSAIR",
+        "name": "VENGEANCE RGB PRO SL 32GB (2PK x 16GB) 3600MHz DDR4",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6457/6457798_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "6400",
+        "category": "RAM"
+      },
+      {
+        "id": "adf3a0e5-cd0b-4881-bce7-627184d42345",
+        "brand": "CORSAIR",
+        "name": "VENGEANCE 64GB (2PK 32GB) 6400MHz PC5-51200 DDR5 C32",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6542/6542590_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "10529",
+        "category": "RAM"
+      },
+      {
+        "id": "72c1e302-b5c2-47c0-bc13-dcf59e9c1d93",
+        "brand": "Crucial",
+        "name": "P3 Plus 1TB Internal SSD PCIe Gen 4 x4 NVMe",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509715cv11d.jpg;maxHeight=2000;maxWidth=2000",
+        "price": "3589",
+        "category": "Storage"
+      },
+      {
+        "id": "d0a612b5-4562-4f50-bc56-c98b08fe2c88",
+        "brand": "Samsung",
+        "name": "970 EVO Plus 1TB Internal SSD PCIe Gen 3 x4 NVMe",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6351/6351466_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "3876",
+        "category": "Storage"
+      },
+      {
+        "id": "3dff7c5f-0dff-4654-8d64-84849c69d1d2",
+        "brand": "Samsung",
+        "name": "990 PRO 4TB Internal SSD PCle Gen 4x4 NVMe",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559270_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "15794",
+        "category": "Storage"
+      },
+      {
+        "id": "9aab26de-1d9a-45cf-b30e-b67cf911974d",
+        "brand": "Samsung",
+        "name": "980 PRO Heatsink 2TB Internal SSD PCIe Gen 4 x4 NVMe",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6485/6485009_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "15900",
+        "category": "Storage"
+      },
+      {
+        "id": "a38d95b7-2a0f-45cf-b1a5-d074f8f9cfaa",
+        "brand": "Kingston",
+        "name": "NV2 NVMe PCIe 4.0 SSD 250G M.2 2280 SNV2S/250G",
+        "img": "https://m.media-amazon.com/images/I/71JM21OBzhL._AC_SL1500_.jpg",
+        "price": "1700",
+        "category": "Storage"
+      },
+      {
+        "id": "e41da0ba-ccfb-45d4-b2c0-67b602da19a2",
+        "brand": "Lexar",
+        "name": "NM710 2TB M.2 PCIe Gen4x4 Nvme SSD",
+        "img": "https://www.egprices.com/images/md/lexar-nm710-2tb-m-2-pcie-gen4x4-nvme-ssd-1.jpg",
+        "price": "7500",
+        "category": "Storage"
+      },
+      {
+        "id": "8be0632e-0b4d-4b0f-9076-8d9c924e9826",
+        "brand": "Lexar",
+        "name": "NM790 512GB PCIe Gen4 NVMe M.2 2280 SSD",
+        "img": "https://www.egprices.com/images/large/lexar-nm790-512gb-pcie-gen4-nvme-m-2-2280-ssd-1.jpg",
+        "price": "2899",
+        "category": "Storage"
+      },
+      {
+        "id": "d5d9fc29-bd3b-45f1-b7e6-d9c4973d64ef",
+        "brand": "Crucial",
+        "name": "P3 2TB PCIe M.2 2280 SSD",
+        "img": "https://www.egprices.com/images/md/crucial-p3-2tb-pcie-m-2-2280-ssd-1.png",
+        "price": "6500",
+        "category": "Storage"
+      },
+      {
+        "id": "cfe7f98a-e74f-41fa-bfb9-96f982df71d4",
+        "brand": "CORSAIR",
+        "name": "4000D AIRFLOW ATX MidTower Case",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6424/6424213_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5756",
+        "category": "Case"
+      },
+      {
+        "id": "bbd95a9b-4f30-4630-bf5a-95657605b18c",
+        "brand": "NZXT",
+        "name": "H7 Flow ATX Mid-Tower Case - White",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6507/6507400_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5612",
+        "category": "Case"
+      },
+      {
+        "id": "3f5359e6-bec1-4168-b558-bd5a365508da",
+        "brand": "NZXT",
+        "name": "H9 Flow ATX Mid-Tower Case with Dual Chamber - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529621_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5599",
+        "category": "Case"
+      },
+      {
+        "id": "29de07fd-55f5-4f6f-bb50-c83d7e07373d",
+        "brand": "NZXT",
+        "name": "H5 Flow ATX Mid-Tower Case - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6522/6522038_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5103",
+        "category": "Case"
+      },
+      {
+        "id": "56a478b1-4f6d-4880-8ef7-c39585b34b29",
+        "brand": "Cooler Master",
+        "name": "MasterBox MCB-NR200-KNNN-S00 Mini ITX/Mini DTX Mini-tower Case - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6494/6494853_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5756",
+        "category": "Case"
+      },
+      {
+        "id": "1f0c19d6-ff82-4b50-877b-d7e9309a8cb3",
+        "brand": "ThermalTake",
+        "name": "The Tower 300 Micro ATX Case - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6577/6577421_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "7499 EGP",
+        "category": "Case"
+      },
+      {
+        "id": "5fe8f742-5d08-4f8b-b3e2-82c67409827a",
+        "brand": "CORSAIR",
+        "name": "HXi Series HX1200i 80 PLUS Platinum Cybenetics Platinum Fully Modular ATX Power Supply - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6577/6577051_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "15250",
+        "category": "PSU"
+      },
+      {
+        "id": "c13c5c88-b54b-43a1-b0ba-bb4a246d9b71",
+        "brand": "EVGA",
+        "name": "SuperNOVA 1300W GT Power Supply",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6500/6500780_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "12612",
+        "category": "PSU"
+      },
+      {
+        "id": "c9083e19-96ad-4791-a416-c3728a90b39a",
+        "brand": "NZXT",
+        "name": "C1200 80 Plus Gold Fully-Modular Low Noise ATX 3.0 PSU - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538048_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "10599",
+        "category": "PSU"
+      },
+      {
+        "id": "8cf9c66e-46f5-4b80-bdf8-c7c6eacb9fc7",
+        "brand": "MSI",
+        "name": "MPG A850G PCIE 5 - Full Modular – 80 Plus Gold 850W - 100% Japanese 105°C Capacitors – ATX 3.0 Gaming Power Supply - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6524/6524434cv17d.jpg;maxHeight=200;maxWidth=300",
+        "price": "7630",
+        "category": "PSU"
+      },
+      {
+        "id": "20d03828-d657-4d5b-b2d3-4d0b601b8988",
+        "brand": "ThermalTake",
+        "name": "Toughpower GF2 ARGB 750W 80 PLUS Gold Fully Modular ATX Power Supply - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6510/6510218_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "8200",
+        "category": "PSU"
+      },
+      {
+        "id": "8b0e6a13-3ef2-44a2-bc47-d01d4a27abf4",
+        "brand": "CORSAIR",
+        "name": "RM Series RM750 750W ATX 80 PLUS GOLD Certified Fully Modular Power Supply - White",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477388_sd.jpg;maxHeight=200;maxWidth=300",
+        "price": "5200",
+        "category": "PSU"
+      },
+      {
+        "id": "33e41642-937e-4160-b0f0-e4e4f70ec68c",
+        "brand": "MSI",
+        "name": "MSI - A750GL PCIE 5 750W ATX 3.0 Full Modular 80 Plus Gold Gaming Power Supply - Black",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6562/6562433cv17d.jpg;maxHeight=200;maxWidth=300",
+        "price": "4400",
+        "category": "PSU"
+      },
+      {
+        "id": "033e8e16-c8f3-49f1-b41c-1b9f97b7e2a9",
+        "brand": "CORSAIR",
+        "name": "VENGEANCE Performance 16GB (1PK 16GB) 3200MHz DDR4",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519625_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "1675",
+        "category": "laptopram"
+      },
+      {
+        "id": "4d7b1f53-3b5c-4c59-b5d9-21c9bfcde4cc",
+        "brand": "CORSAIR",
+        "name": "Vengeance Series 32GB (2x16GB) 2666MHz DDR4 C18 SODIMM",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6395/6395110_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "3446",
+        "category": "laptopram"
+      },
+      {
+        "id": "a06b41b0-5dfe-4c8a-b39e-4643e8c2d5b4",
+        "brand": "CORSAIR",
+        "name": "Vengeance 16GB (1PK 16GB) 4800MHz DDR5 C40 SODIMM",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6516/6516932_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "3000",
+        "category": "laptopram"
+      },
+      {
+        "id": "f79bc0b8-ea99-48d3-948b-98745b5f6a64",
+        "brand": "CORSAIR",
+        "name": "VENGEANCE 32GB (1PK 32GB) 4800MHz DDR5 C40 SODIMM",
+        "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519626_sd.jpg;maxHeight=640;maxWidth=550",
+        "price": "4163",
+        "category": "laptopram"
+      },
+      {
+        "id": "276db22e-1536-4288-b506-4770387b3748",
+        "brand": "SABRENT",
+        "name": "Rocket 2230 NVMe 4.0 1TB High Performance PCIe 4.0 M.2 2230 SSD [SB-2130-1TB]",
+        "img": "https://m.media-amazon.com/images/I/71BVLQNOlmL._AC_SL1500_.jpg",
+        "price": "5000",
+        "category": "laptopssd"
+      },
+      {
+        "id": "44a28312-e5b9-402b-b929-e35e3e1aef48",
+        "brand": "Seagate",
+        "name": "FireCuda 520N SSD 2TB SSD - M.2 2230-S2, PCIe Gen4 ×4 NVMe 1.4, speeds up to 5000MB/s, Compatible with Steam Deck, Microsoft® Surface, Laptop, with Rescue Services (ZP2048GV3A002)",
+        "img": "https://m.media-amazon.com/images/I/61NUQVKoNUL._AC_SL1050_.jpg",
+        "price": "9000",
+        "category": "laptopssd"
+      },
+      {
+        "id": "1b36b75b-d9ca-4296-88a0-34fe5c189db4",
+        "brand": "KIOXIA",
+        "name": "SSD 512GB M.2 2230 30mm NVMe PCIe 4.0 Gen 4 x 4 BG5 (OEM)",
+        "img": "https://m.media-amazon.com/images/I/81nC5v90i-L._AC_SL1500_.jpg",
+        "price": "2000",
+        "category": "laptopssd"
+      },
+      {
+        "id": "1f825731-bf76-4511-908d-66b7b1327d3d",
+        "brand": "WD",
+        "name": "BLACK 1TB SN770M M.2 2230 NVMe SSD for Handheld Gaming Devices, Speeds up to 5,150MB/s, TLC 3D NAND, Great for Steam Deck and Microsoft Surface - WDBDNH0010BBK-WRSN",
+        "img": "https://m.media-amazon.com/images/I/61R8776bKlL._AC_SL1500_.jpg",
+        "price": "5000",
+        "category": "laptopssd"
+      },
+      {
+        "id": "c95acb7e-8e44-4f9c-a7a3-07d6c70398b7",
+        "brand": "Cooler Master",
+        "name": "GD160 PC Gaming Desk, Gaming Table, Black, Purple",
+        "img": "https://m.media-amazon.com/images/I/51bfphEIWlL._AC_SL1500_.jpg",
+        "price": "17600",
+        "category": "Desk"
+      },
+      {
+        "id": "95e6baf4-4e77-4d7d-8c8a-bc50b34510b7",
+        "brand": "Arozzi",
+        "name": "Arena Gaming Desk 63 Wide, Ultrawide Curved Gaming and Office Desk, Large Gaming Desk with Custom Monitor Mount & Cable Management Under Desk (Black)",
+        "img": "https://m.media-amazon.com/images/I/51SKlRGV4vL._AC_SL1500_.jpg",
+        "price": "14500",
+        "category": "Desk"
+      },
+      {
+        "id": "36fd1b5f-6e95-4d56-a597-380f6c2ed2d2",
+        "brand": "ODK",
+        "name": "47 Inch Small L Shaped Computer Desk with Reversible Storage Shelves, L-Shaped Corner Desk with Monitor Stand for Small Space, Modern Simple Writing Study Table for Home Office Workstation, Black",
+        "img": "https://m.media-amazon.com/images/I/71ExckqCniL._AC_SL1500_.jpg",
+        "price": "20330",
+        "category": "Desk"
+      },
+      {
+        "id": "62f3e8e1-1dfd-4a38-8855-7e4abf8a9056",
+        "brand": "COUGAR",
+        "name": "E-mars",
+        "img": "https://cougargaming.com/global/img/products/desk/e-mars-list-pro.png",
+        "price": "21847",
+        "category": "Desk"
+      },
+      {
+        "id": "f08542cd-f079-43b2-bb8f-7de4652b9b7f",
+        "brand": "FlexiSpot",
+        "name": "E7 Plus 4-leg Standing Desk (E7 Plus)",
+        "img": "https://image.springbeetle.com/cdn-cgi/image/dpr=1,format=webp,fit=pad/https://staticprod.site.flexispot.com/dev/trantor/attachments/223Q-4.jpg",
+        "price": "16650",
+        "category": "Desk"
+      },
+      {
+        "id": "20e54742-2c0b-42db-b951-4234590a34f1",
+        "brand": "FlexiSpot",
+        "name": "E7L Pro L-Shaped Standing Desk (E7L)",
+        "img": "https://image.springbeetle.com/cdn-cgi/image/dpr=1,format=webp,fit=pad/https://s3.springbeetle.com/prod-us2-bucket/trantor/attachments/US/E7L-main%20picture-24.2.29.jpg",
+        "price": "18460",
+        "category": "Desk"
+      },
+      {
+        "id": "67b9e46c-d857-470d-ae68-615fc9b86b13",
+        "brand": "ASUS",
+        "name": "SL300 ROG Chariot Core Gaming Chair",
+        "img": "https://img.overclockers.co.uk/images/GC-000-AS/08d36c2f14e6f16e56178422d7fb4ae7.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "20250",
+        "category": "Chair"
+      },
+      {
+        "id": "37fe5c2e-3f1f-4c2f-866b-458e61805469",
+        "brand": "Aerocool",
+        "name": "Crown Nobility Series Gaming Chair - Moonstone White",
+        "img": "https://img.overclockers.co.uk/images/GC-00Z-AE/b3ca6fd30f78047bf7de48ec2dc938cc.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "8512",
+        "category": "Chair"
+      },
+      {
+        "id": "542b5c12-62c4-4f79-9e7d-410c9b469f4b",
+        "brand": "Nitro Concepts",
+        "name": "X1000 Gaming Chair - Transformers Decepticons Edition",
+        "img": "https://img.overclockers.co.uk/images/GC-06D-NR/91e85b0d0262739c3fd7282fa827e069.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "13856",
+        "category": "Chair"
+      },
+      {
+        "id": "8d6d2878-02fe-4c85-bb5d-13fe77ad5f58",
+        "brand": "Noblechairs",
+        "name": "EPIC Gaming Chair - Black/Red",
+        "img": "https://img.overclockers.co.uk/images/GC-003-NC/bf43ef1278cfea87a50ccf0ec97528d9.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "16730",
+        "category": "Chair"
+      },
+      {
+        "id": "55e05ca1-e8b3-4b99-a26e-1b3c8c6b71f5",
+        "brand": "Noblechairs",
+        "name": "HERO Gaming Chair - Black/White",
+        "img": "https://img.overclockers.co.uk/images/GC-00X-NC/59325cc781abb4d7fa8fb4a2af90e84e.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "17730",
+        "category": "Chair"
+      },
+      {
+        "id": "5cf1a468-f312-4175-99f0-4c92ad7c5b63",
+        "brand": "ASUS",
+        "name": "ROG Destrier Ergo Gaming Chair",
+        "img": "https://img.overclockers.co.uk/images/GC-008-AS/17fb342e2e98afc90c51e13aa7e95122.jpg?auto=compress%2Cformat&fit=fill&fill-color=fff&q=70&fill=solid&w=442&h=442",
+        "price": "26330",
+        "category": "Chair"
+      },
+      {
+        "id": "e0b01a6b-9887-472a-b7b1-3ec4994e4b68",
+        "brand": "Govee",
+        "name": "Glide RGBIC Y Lights",
+        "img": "https://cdn.shopify.com/s/files/1/0512/3489/8105/products/H6065-1.jpg?v=1681728169&width=1400&height=1400&crop=center",
+        "price": "7800",
+        "category": "Light"
+      },
+      {
+        "id": "bfc872f7-e1ca-463d-bdb7-3c8eaab94e02",
+        "brand": "Govee",
+        "name": "Glide Hexagon Light Panels Ultra",
+        "img": "https://cdn.shopify.com/s/files/1/0512/3489/8105/files/ID2_1_b9e4ed17-9797-456e-85ae-a97bac2aa6ce.jpg?v=1715046395&width=1400&height=1400&crop=center",
+        "price": "20350",
+        "category": "Light"
+      },
+      {
+        "id": "f7e6cf3a-e8e2-487a-a543-b4b4a45b9d0a",
+        "brand": "Govee",
+        "name": "Glide Wall Light",
+        "img": "https://cdn.shopify.com/s/files/1/0558/4712/5176/products/B6062102-ID.jpg?v=1682416756&width=1400&height=1400&crop=center",
+        "price": "3650",
+        "category": "Light"
+      },
+      {
+        "id": "a7aaf1c9-d01c-4315-b36a-0d51cbd7a36d",
+        "brand": "Govee",
+        "name": "RGBIC LED Neon Rope Lights for Desks",
+        "img": "https://cdn.shopify.com/s/files/1/0558/4712/5176/products/GoveeRGBICLEDNeonRopeLightsforDesks.jpg?v=1701764131&width=1400&height=1400&crop=center",
+        "price": "8950",
+        "category": "Light"
+      },
+      {
+        "id": "d7328ab6-b44a-4b3d-812b-7b1312e5a9f1",
+        "brand": "Govee",
+        "name": "Glide Hexa Light Panels",
+        "img": "https://cdn.shopify.com/s/files/1/0558/4712/5176/products/3.png?v=1682337219&width=1400&height=1400&crop=center",
+        "price": "6260",
+        "category": "Light"
+      },
+      {
+        "id": "c6b6bce0-bfd8-45b1-8ef2-1169c784727d",
+        "brand": "Nanoleaf",
+        "name": "Limited Edition Ultra Black Triangles Starter Kit (9 Panels)",
+        "img": "https://int-cdn.nanoleaf.me/assets/img/products/shapes/owl/black-triangles/smk/9pk/1-nanoleaf-shapes-ultra-black-triangles-light-panels-smarter-kit-9-cool@1x.webp",
+        "price": "11150",
+        "category": "Light"
+      }
+]

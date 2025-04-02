@@ -1,6 +1,5 @@
 import styles from './main_home.module.css';
 import Product_tag from "../product_tag/product_tag.jsx";
-import Lapdata from "../data/laptopsdata.jsx";
 import Prebuiltdata from "../data/prebuiltdata.jsx";
 import Consolesdata from "../data/consolesdata.jsx";
 
@@ -20,7 +19,6 @@ function Home() {
                 <>
                 <Product_tag title={tab} nav={true} id={index}/>
                 <div id={index} className={styles.slide}>
-                    {tab === "New Arrivals" && <Lapdata/>}
                     {tab === "Best Sellers" && <Consolesdata/>}
                     {tab === "Pre Built PCs" && <Prebuiltdata/>}
                 </div>

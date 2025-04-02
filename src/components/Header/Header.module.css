@@ -8,13 +8,14 @@
 }
 header{
     position: sticky;
-    top: 10px;
+    top: 0;
     z-index: 99;
 }
 .header_trans{
     img{filter:invert(var(--invert))}
 }
 .header_nav{
+    padding-top: 10px;
     img:hover{
         filter: brightness(120%);
     }
@@ -29,6 +30,7 @@ header{
     }
 }
 .header_nav_trans{
+    padding-top: 10px;
     border-bottom: var(--accent) solid 2px;
     a{
         color: var(--text);

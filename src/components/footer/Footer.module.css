@@ -60,8 +60,13 @@ footer{
             position: relative;
             background: #5f52d3;
             border-radius: 100%;
-            padding: 5px;
             margin: 0 5px;
+            padding: 5px;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         li:hover{
             transform: scale(1.15);
@@ -74,6 +79,14 @@ footer{
         }
         .social_icon_youtube:hover{
             background: #e12727;
+        }
+    }
+}
+@media (max-width: 410px) {
+    .copyright{
+        justify-content: center;
+        .text{
+            margin-bottom: 10px;
         }
     }
 }
