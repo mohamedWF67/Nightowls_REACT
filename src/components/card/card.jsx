@@ -20,16 +20,16 @@ function Card(props) {
     //function hoverno() {setIsHover(false)}
 
     return (
-            <div onClick={handleRedirect} className={(trans?style.card_trans:style.card)}>
-                    <>
+        <a href={`/products/${props.id}`}>
+            <div className={(trans?style.card_trans:style.card)}>
                         <div className={style.img}><img alt={props.desc} src={props.img}></img></div>
                         <h2 className={style.product_title}>{props.title}</h2>
                         <p className={style.product_desc}>{props.desc}</p>
                         <button
                             className={style.btn}>{props.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} EGP
                         </button>
-                    </>
             </div>
+        </a>
     );
 
 }

@@ -55,7 +55,7 @@ function App() {
             <Route path="/TEST" element={<Testpage/>} />
             <Route
                 path="/products/:productId"
-                element={<ProductPage products={products} />}
+                element={(<ProductPage products={products} /> != null?<ProductPage products={products} />:<E404/>)}
             />
         </Routes>
     </BrowserRouter>

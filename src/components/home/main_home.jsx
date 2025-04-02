@@ -12,6 +12,7 @@ function Home() {
         <main>
             <div className={styles.video}>
                 <iframe src="https://www.youtube.com/embed/GejXnyse-b4?si=NtX7eFIrxrOJjLD_" title="YouTube video player"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
