@@ -1,7 +1,5 @@
 import styles from './aboutuscomponent.module.css';
 import TeamImage from 'src/assets/img.avif';
-import user from '../../assets/user.png';
-import cart from '../../assets/shopping-cart.png';
 function AboutusComponent() {
 
     const ScrollToTeam = () =>{
