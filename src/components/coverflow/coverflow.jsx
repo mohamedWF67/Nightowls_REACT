@@ -19,13 +19,13 @@ function Coverflow() {
         <main>
             <div id={"coverflow"} className={styles.coverflow}>
                 <div className={styles.coverflow_img}>
-                    <img src={"src/assets/WhatsApp Image 2025-08-10 at 11.53.25_3d84c53a.jpg"}/>
+                    <img src={"https://mohamedwf67.github.io/NightOwls/products/WhatsApp%20Image%202025-08-10%20at%2011.53.25_3d84c53a.jpg"}/>
                 </div>
                 <div className={styles.coverflow_img}>
-                    <img src={"src/assets/_DSC4817-Enhanced-NR.avif"}/>
+                    <img src={"https://mohamedwf67.github.io/NightOwls/products/DSC4817-Enhanced-NR.avif"}/>
                 </div>
                 <div className={styles.coverflow_img}>
-                    <img src={"src/assets/WhatsApp Image 2024-04-29 at 01.42.33_1d4374c1.jpg"}/>
+                    <img src={"https://mohamedwf67.github.io/NightOwls/products/WhatsApp%20Image%202025-08-11%20at%2018.28.47_eda2e6ab.jpg"}/>
                 </div>
                 <div className={styles.coverflow_img}>
                     <img
