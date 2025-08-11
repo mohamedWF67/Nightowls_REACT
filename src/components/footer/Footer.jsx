@@ -13,46 +13,46 @@ function Footer() {
                 <div className={styles.content}>
                     <h2>Accessories</h2>
                     <ul>
-                        <li><a href={"gaming"}>Gaming</a></li>
-                        <li><a href={"setup"}>Setup</a></li>
-                        <li><a href={"collections"}>Collections</a></li>
+                        <li><a href="/gaming">Gaming</a></li>
+                        <li><a href="/setup">Setup</a></li>
+                        <li><a href="/collections">Collections</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Devices and hardware</h2>
                     <ul>
-                        <li><a href={"prebuilt"}>Pre built PC</a></li>
-                        <li><a href={"laptops"}>Laptops</a></li>
-                        <li><a href={"Consoles"}>Consoles</a></li>
-                        <li><a href={"pccomp"}>PC components</a></li>
+                        <li><a href="/prebuilt">Pre built PC</a></li>
+                        <li><a href="/laptops">Laptops</a></li>
+                        <li><a href="/Consoles">Consoles</a></li>
+                        <li><a href="/pccomp">PC components</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Games guider</h2>
                     <ul>
-                        <li><a href={"Requirements"}>Requirements</a></li>
-                        <li><a href={"Hardware"}>Hardware enhancements</a></li>
+                        <li><a href="/Requirements">Requirements</a></li>
+                        <li><a href="/Hardware">Hardware enhancements</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Cart</h2>
                     <ul>
-                        <li><a href={"cart"}>View cart</a></li>
-                        <li><a href={"checkout"}>Checkout</a></li>
+                        <li><a href="/cart">View cart</a></li>
+                        <li><a href="/checkout">Checkout</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Account</h2>
                     <ul>
-                        <li><a href={"login"}>Login</a></li>
-                        <li><a href={"registration"}>Sign-up</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/registration">Sign-up</a></li>
                     </ul>
                 </div>
                 <div className={styles.content}>
                     <h2>Night Owls</h2>
                     <ul>
-                        <li><a href={"about"}>About us</a></li>
-                        <li><a href={"contact"}>Contact us</a></li>
+                        <li><a href="/about">About us</a></li>
+                        <li><a href="/contact">Contact us</a></li>
                     </ul>
                 </div>
             </div>

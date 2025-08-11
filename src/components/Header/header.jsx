@@ -20,39 +20,39 @@ function Header() {
             //header for transparent full
                 <header className={style.header_trans}>
                     <nav className={style.header_nav_trans}>
-                        <a href={"home"}><img className={style.logo} src={logo}/></a>
+                        <a href="/home"><img className={style.logo} src={logo}/></a>
                         <ul className={style.navmenu}>
                             <li>
                                 <div className={style.dropdown_trans}><a>Accessories</a>
                                     <div className={style.dropdown_content}>
-                                        <a href="gaming">Gaming</a>
-                                        <a href="setup">Setup</a>
-                                        <a href="collections">Collections</a>
+                                        <a href="/gaming">Gaming</a>
+                                        <a href="/setup">Setup</a>
+                                        <a href="/collections">Collections</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className={style.dropdown_trans}><a>Devices and hardware</a>
                                     <div className={style.dropdown_content}>
-                                        <a href="prebuilt">Pre built PC</a>
-                                        <a href="laptops">Laptops</a>
-                                        <a href="consoles">Consoles</a>
-                                        <a href="pccomp">PC components</a>
+                                        <a href="/prebuilt">Pre built PC</a>
+                                        <a href="/laptops">Laptops</a>
+                                        <a href="/consoles">Consoles</a>
+                                        <a href="/pccomp">PC components</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className={style.dropdown_trans}><a>Games guider</a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"requirements"}>Requirements</a>
-                                        <a href={"hardware"}>Hardware enhancments</a>
+                                        <a href="/requirements">Requirements</a>
+                                        <a href="/hardware">Hardware enhancments</a>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                         <ul className={style.acc}>
                             <li><Darkmode/></li>
-                            <li><a href={"cart"}>
+                            <li><a href="/cart">
                                 <button><img src={cart} alt="cart"/></button>
                             </a></li>
                             <li>
@@ -62,8 +62,8 @@ function Header() {
                                         </button>
                                     </a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"login"}>Log in</a>
-                                        <a href={"registration"}>Sign up</a>
+                                        <a href="/login">Log in</a>
+                                        <a href="/registration">Sign up</a>
                                     </div>
                                 </div>
                             </li>
@@ -74,39 +74,39 @@ function Header() {
                 //header full
                 <header className={style.header}>
                     <nav className={style.header_nav}>
-                        <a href={"home"}><img className={style.logo} src={logo}/></a>
+                        <a href="/home"><img className={style.logo} src={logo}/></a>
                         <ul className={style.navmenu}>
                             <li>
                                 <div className={style.dropdown}><a>Accessories</a>
                                     <div className={style.dropdown_content}>
-                                        <a href="gaming">Gaming</a>
-                                        <a href="setup">Setup</a>
-                                        <a href="collections">Collections</a>
+                                        <a href="/gaming">Gaming</a>
+                                        <a href="/setup">Setup</a>
+                                        <a href="/collections">Collections</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className={style.dropdown}><a>Devices and hardware</a>
                                     <div className={style.dropdown_content}>
-                                        <a href="prebuilt">Pre built PC</a>
-                                        <a href="laptops">Laptops</a>
-                                        <a href="consoles">Consoles</a>
-                                        <a href="pccomp">PC components</a>
+                                        <a href="/prebuilt">Pre built PC</a>
+                                        <a href="/laptops">Laptops</a>
+                                        <a href="/consoles">Consoles</a>
+                                        <a href="/pccomp">PC components</a>
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className={style.dropdown}><a>Games guider</a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"requirements"}>Requirements</a>
-                                        <a href={"hardware"}>Hardware enhancments</a>
+                                        <a href="/requirements">Requirements</a>
+                                        <a href="/hardware">Hardware enhancments</a>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                         <ul className={style.acc}>
                             <li><Darkmode/></li>
-                            <li><a href={"cart"}>
+                            <li><a href="/cart">
                                 <button><img src={cart} alt="cart"/></button>
                             </a></li>
                             <li>
@@ -115,8 +115,8 @@ function Header() {
                                         <button><img src={user} alt="user"/></button>
                                     </a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"login"}>Log in</a>
-                                        <a href={"registration"}>Sign up</a>
+                                        <a href="/login">Log in</a>
+                                        <a href="/registration">Sign up</a>
                                     </div>
                                 </div>
                             </li>
@@ -135,7 +135,7 @@ function Header() {
                             <span></span>
                             <span></span>
                         </label>
-                        <a href={"home"}><img className={style.logo} src={logo}/></a>
+                        <a href="/home"><img className={style.logo} src={logo}/></a>
                         <ul className={style.acc}>
                             <li>
                                 <div className={style.dropdown_trans}>
@@ -143,8 +143,8 @@ function Header() {
                                         <button><img src={user} alt="user"/></button>
                                     </a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"login"}>Log in</a>
-                                        <a href={"registration"}>Sign up</a>
+                                        <a href="/login">Log in</a>
+                                        <a href="/registration">Sign up</a>
                                     </div>
                                 </div>
                             </li>
@@ -153,31 +153,31 @@ function Header() {
                     {show && <>
                         <div id={"hammenu"} className={style.hamburger_trans}>
                             <div className={style.mainburger}>
-                                <h1><a href={"home"}>Night owls</a></h1>
+                                <h1><a href="/home">Night owls</a></h1>
                                 <HR margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Accessories"} content={<>
-                                    <a href="gaming">Gaming</a>
-                                    <a href="setup">Setup</a>
-                                    <a href="collections">Collections</a>
+                                    <a href="/gaming">Gaming</a>
+                                    <a href="/setup">Setup</a>
+                                    <a href="/collections">Collections</a>
                                 </>}/>
                                 <HR margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Devices and hardware"} content={<>
-                                    <a href="prebuilt">Pre built PC</a>
-                                    <a href="laptops">Laptops</a>
-                                    <a href="consoles">Consoles</a>
-                                    <a href="pccomp">PC components</a>
+                                    <a href="/prebuilt">Pre built PC</a>
+                                    <a href="/laptops">Laptops</a>
+                                    <a href="/consoles">Consoles</a>
+                                    <a href="/pccomp">PC components</a>
                                 </>}/>
                                 <HR margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Games guider"} content={<>
-                                    <a href={"requirements"}>Requirements</a>
-                                    <a href={"hardware"}>Hardware enhancments</a>
+                                    <a href="/requirements">Requirements</a>
+                                    <a href="/hardware">Hardware enhancments</a>
                                 </>}/>
                                 <HR margin={"5px 0"} width={"100%"}/>
                             </div>
                             <div className={style.burgerextra}>
                                 <Transparentbtn/>
                                 <Darkmode/>
-                                <a href={"cart"}><img src={cart} alt="cart"/></a>
+                                <a href="/cart"><img src={cart} alt="cart"/></a>
                                 <a><button><img src={user} alt="user"/></button></a>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ function Header() {
                             <span></span>
                             <span></span>
                         </label>
-                        <a href={"home"}><img className={style.logo} src={logo}/></a>
+                        <a href="/home"><img className={style.logo} src={logo}/></a>
                         <ul className={style.acc}>
                             <li>
                                 <div className={style.dropdown}>
@@ -201,8 +201,8 @@ function Header() {
                                         <button><img src={user} alt="user"/></button>
                                     </a>
                                     <div className={style.dropdown_content}>
-                                        <a href={"login"}>Log in</a>
-                                        <a href={"registration"}>Sign up</a>
+                                        <a href="/login">Log in</a>
+                                        <a href="/registration">Sign up</a>
                                     </div>
                                 </div>
                             </li>
@@ -211,31 +211,31 @@ function Header() {
                     {show && <>
                         <div id={"hammenu"} className={style.hamburger}>
                             <div className={style.mainburger}>
-                                <h1><a href={"home"}>Night owls</a></h1>
+                                <h1><a href="/home">Night owls</a></h1>
                                 <HR color={"black"} margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Accessories"} content={<>
-                                    <a href="gaming">Gaming</a>
-                                    <a href="setup">Setup</a>
-                                    <a href="collections">Collections</a>
+                                    <a href="/gaming">Gaming</a>
+                                    <a href="/setup">Setup</a>
+                                    <a href="/collections">Collections</a>
                                 </>}/>
                                 <HR color={"black"} margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Devices and hardware"} content={<>
-                                    <a href="prebuilt">Pre built PC</a>
-                                    <a href="laptops">Laptops</a>
-                                    <a href="consoles">Consoles</a>
-                                    <a href="pccomp">PC components</a>
+                                    <a href="/prebuilt">Pre built PC</a>
+                                    <a href="/laptops">Laptops</a>
+                                    <a href="/consoles">Consoles</a>
+                                    <a href="/pccomp">PC components</a>
                                 </>}/>
                                 <HR color={"black"} margin={"5px 0"} width={"100%"}/>
                                 <Accordion title={"Games guider"} content={<>
-                                    <a href={"requirements"}>Requirements</a>
-                                    <a href={"hardware"}>Hardware enhancments</a>
+                                    <a href="/requirements">Requirements</a>
+                                    <a href="/hardware">Hardware enhancments</a>
                                 </>}/>
                                 <HR color={"black"} margin={"5px 0"} width={"100%"}/>
                             </div>
                             <div className={style.burgerextra}>
                                 <Transparentbtn/>
                                 <Darkmode/>
-                                <a href={"cart"}><i className={"bx bx-cart"}></i></a>
+                                <a href="/cart"><i className={"bx bx-cart"}></i></a>
                                 <a><i className={"bx bx-user-circle"}></i></a>
                             </div>
                         </div>

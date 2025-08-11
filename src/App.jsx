@@ -21,6 +21,7 @@ import Testpage from "./pages/mongo test.jsx";
 import ProductPage from "./components/Product_Page/Product_Page.jsx";
 import productsData from './products.json';
 import {useEffect, useState} from "react";
+import TheTeam from "./pages/TheTeam.jsx";
 function App() {
     const [products, setProducts] = useState([]);
 
@@ -53,6 +54,7 @@ function App() {
             <Route path="/gaming" element={<Gamingpage/>} />
             <Route path="/hardware" element={<Hardwareenhancement/>} />
             <Route path="/TEST" element={<Testpage/>} />
+            <Route path="/team" element={<TheTeam/>} />
             <Route
                 path="/products/:productId"
                 element={(<ProductPage products={products} /> != null?<ProductPage products={products} />:<E404/>)}

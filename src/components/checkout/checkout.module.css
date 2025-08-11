@@ -61,24 +61,26 @@
         h1{
             margin: 5px 0 30px 15px;
         }
-        input{appearance: none;}
+        input{
+            appearance: none;
+        }
         label{
             border: 2px solid rgba(255, 255, 255, 0.2);
             border-radius: 20px;
             padding: 10px;
-            margin: 10px 0;
+            margin: 5px 0;
             height: 40px;
             box-sizing: border-box;
             display: flex;
             align-items: center;
         }
-        a button{
+        button{
             border: 2px solid rgba(255, 255, 255, 0.2);
             border-radius: 20px;
-            min-width: 100px;
+            padding: 5px 15px;
             font-size: 18px;
+            margin: auto auto 10px auto;
         }
-        a{margin: auto auto 10px auto;}
 
         button:hover{box-shadow: white 0 0 12px;}
         button:focus {box-shadow: white 0 0 6px;}

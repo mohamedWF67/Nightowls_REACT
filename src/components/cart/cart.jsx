@@ -23,6 +23,13 @@ function Cartcomponent() {
             price:"123,103"
         },
     ]
+
+    const total = testing.reduce((sum, item) => {
+        // Remove commas and convert to number
+        const numPrice = parseInt(item.price.replace(/,/g, ""), 10);
+        return sum + numPrice;
+    }, 0);
+
     return (
         <>
             <div className={styles.cart_container}>
@@ -34,7 +41,7 @@ function Cartcomponent() {
                 <div className={styles.cart_pricetab}>
                     <h1>Prices</h1>
                 <HR/>
-                    <a href={"checkout"} className={styles.cart_submit_btn}>3500</a>
+                    <a href={"checkout"} className={styles.cart_submit_btn}>{total.toLocaleString()}</a>
                 </div>
             </div>
         </>

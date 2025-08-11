@@ -21,12 +21,13 @@ function AboutusComponent() {
                     </div>
                 </div>
                 <div className={styles.aboutus_big}>
-                    <h1>Our team</h1>
+                    <h1>Our <a href={"/Team"}>team</a></h1>
                     <p>We really enjoyed making this website it was a very wonderful experience having such a great team.</p>
                     <img alt={"Team photo"} className={styles.aboutus_img} src={"https://mohamedwf67.github.io/NightOwls/products/img.png"}/>
                     <p>Manager: Mohamed Waleed<br/>
-                        Creative minds: Habiba Harfoosh, Mayan Nassar<br/>
+                        Creative Minds: Habiba Harfoosh, Mayan Nassar<br/>
                         Graphics: Mazen Mohamed<br/>
+                        Beauty Touches: Jomana Mohamed<br/>
                         Special thanks to TA.Rana Khalil
                     </p>
                 </div>

@@ -1,3 +1,20 @@
+.successMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text);
+    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px, rgba(9, 30, 66, 0.08) 0 0 0 1px;
+    background-color: rgba(255, 255, 255, 0.074);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.074);
+    width: 350px;
+    height: 220px;
+}
+
+
 .payment_card {
     .payment_card_container{
         *{font-weight: 500;}
@@ -40,8 +57,9 @@
             width: calc(100% - 40px);
             height: 40px;
             margin: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
             input{
-                float: right;
                 margin: 0 5px;
                 border-radius: 0;
                 border: none;
