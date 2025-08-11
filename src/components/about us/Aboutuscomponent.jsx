@@ -1,5 +1,7 @@
 import styles from './aboutuscomponent.module.css';
-
+import TeamImage from 'src/assets/img.avif';
+import user from '../../assets/user.png';
+import cart from '../../assets/shopping-cart.png';
 function AboutusComponent() {
 
     const ScrollToTeam = () =>{
@@ -27,7 +29,7 @@ function AboutusComponent() {
                 <div className={styles.aboutus_big}>
                     <h1>Our <a href={"/Team"}>team</a></h1>
                     <p>We really enjoyed making this website it was a very wonderful experience having such a great team.</p>
-                    <img alt={"Team photo"} className={styles.aboutus_img} src={"src/assets/img.avif"}/>
+                    <img alt={"Team photo"} className={styles.aboutus_img} src={TeamImage}/>
                     <p>Manager: Mohamed Waleed<br/>
                         Creative Minds: Habiba Harfoosh, Mayan Nassar<br/>
                         Graphics: Mazen Mohamed<br/>
