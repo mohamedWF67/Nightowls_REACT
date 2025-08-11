@@ -7,7 +7,6 @@ import Windowsize from "../windowsize.jsx";
 import {useState} from "react";
 import Accordion from "../accordion/acrodion.jsx";
 import HR from "../HR/HR.jsx";
-import Transparentbtn from "../transparent btn/transparentbtn_component.jsx";
 
 function Header() {
 
@@ -175,7 +174,6 @@ function Header() {
                                 <HR margin={"5px 0"} width={"100%"}/>
                             </div>
                             <div className={style.burgerextra}>
-                                <Transparentbtn/>
                                 <Darkmode/>
                                 <a href="/cart"><img src={cart} alt="cart"/></a>
                                 <a><button><img src={user} alt="user"/></button></a>
@@ -233,7 +231,6 @@ function Header() {
                                 <HR color={"black"} margin={"5px 0"} width={"100%"}/>
                             </div>
                             <div className={style.burgerextra}>
-                                <Transparentbtn/>
                                 <Darkmode/>
                                 <a href="/cart"><i className={"bx bx-cart"}></i></a>
                                 <a><i className={"bx bx-user-circle"}></i></a>

@@ -2,10 +2,14 @@ import styles from './aboutuscomponent.module.css';
 
 function AboutusComponent() {
 
+    const ScrollToTeam = () =>{
+        window.scrollTo(0, 500);
+    }
+
     return (
         <>
             <div className={styles.aboutuscontainer}>
-                <h1>About Night Owls</h1>
+                <a onClick={ScrollToTeam}><h1>About Night Owls</h1></a>
                 <div className={styles.aboutus_b}>
                     <div className={styles.aboutus_b1}>
                         <h1>Don’t know what’s the best device for you?</h1>
@@ -23,12 +27,13 @@ function AboutusComponent() {
                 <div className={styles.aboutus_big}>
                     <h1>Our <a href={"/Team"}>team</a></h1>
                     <p>We really enjoyed making this website it was a very wonderful experience having such a great team.</p>
-                    <img alt={"Team photo"} className={styles.aboutus_img} src={"https://mohamedwf67.github.io/NightOwls/products/img.png"}/>
+                    <img alt={"Team photo"} className={styles.aboutus_img} src={"src/assets/img.avif"}/>
                     <p>Manager: Mohamed Waleed<br/>
                         Creative Minds: Habiba Harfoosh, Mayan Nassar<br/>
                         Graphics: Mazen Mohamed<br/>
                         Beauty Touches: Jomana Mohamed<br/>
-                        Special thanks to TA.Rana Khalil
+                        Helping Hands: Aya Hassan<br/>
+                        Special Thanks to TA.Rana Khalil
                     </p>
                 </div>
             </div>

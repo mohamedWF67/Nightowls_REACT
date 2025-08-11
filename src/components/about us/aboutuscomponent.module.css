@@ -17,12 +17,18 @@
         background-color: rgba(255, 255, 255, 0.074);
         width: 100%;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         h1{text-align: center;}
-        p{font-size: 45px;font-weight: normal}
+        p{font-size: 45px;font-weight: normal;
+        align-self: flex-start}
         padding: 20px 30px;
         margin: 25px 0;
         .aboutus_img{
-            max-width: 100%;
+            max-width: 1600px;
+            min-width: 100px;
+            flex-shrink: 1;
         }
     }
     .aboutus_b1{

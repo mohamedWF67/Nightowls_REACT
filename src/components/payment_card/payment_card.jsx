@@ -1,6 +1,5 @@
 import styles from './payment_card.module.css';
 import {useEffect, useState} from "react";
-import {useNavigate} from "react-router-dom";
 function Paymentcard() {
 
     const [cardValue, setCardValue] = useState("");

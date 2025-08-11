@@ -8,14 +8,13 @@
 }
 header{
     position: sticky;
-    top: 0;
+    top: 10px;
     z-index: 99;
 }
 .header_trans{
     img{filter:invert(var(--invert))}
 }
 .header_nav{
-    padding-top: 10px;
     img:hover{
         filter: brightness(120%);
     }
