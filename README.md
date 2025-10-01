@@ -124,8 +124,7 @@ Push: git push origin feature/YourFeature
 Open a Pull Request
 
 ## 📜 License
-This project currently doesn’t include a LICENSE file.
-You can add an MIT License if you’d like it open source.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Credits
 Developed by Mohamed Waleed, Mayan Nassar, Habiba Harfoush
