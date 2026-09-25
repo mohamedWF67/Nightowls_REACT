@@ -3,7 +3,7 @@
 [![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/) 
 [![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)](https://vitejs.dev/) 
 [![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://nightowls-react.vercel.app/) 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 A modern **React + Vite** web application with animations, e-commerce components, and backend integration stubs.  
 👉 Live demo: [nightowls-react.vercel.app](https://nightowls-react.vercel.app/)
@@ -124,7 +124,7 @@ Push: git push origin feature/YourFeature
 Open a Pull Request
 
 ## 📜 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 — see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Credits
 Developed by Mohamed Waleed, Mayan Nassar, Habiba Harfoush
